@@ -1,0 +1,4 @@
+question_id,split,kind,question,answer,unit,tolerance_rel,reference
+E90,dev,numeric,What were total Scope 1 emissions in 2024 (tCO2e)?,6399.9,tCO2e,0.03,
+E91,dev,numeric,What were market-based Scope 2 emissions in 2024 (tCO2e)?,62.9,tCO2e,0.1,
+E92,dev,numeric,What were Scope 3 category 1 emissions in 2024 (tCO2e)?,172085.0,tCO2e,0.03,

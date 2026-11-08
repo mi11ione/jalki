@@ -1,0 +1,109 @@
+{
+ "v8": {
+  "clause": {
+   "synthetic_only": true,
+   "script": "python3 pipeline/v8clause.py",
+   "dmax_m": 100.0,
+   "below_good": [
+    "moderate",
+    "poor",
+    "bad"
+   ],
+   "cut": 0.25,
+   "contract_parcels": 1490,
+   "p_total_kg": 4272.0,
+   "nobuf_parcels": 1178,
+   "parcels": 150,
+   "farms": 115,
+   "ha": 845.8,
+   "kg": 174.7,
+   "pct": 4.1,
+   "ca12_parcels": 13,
+   "ca12_kg": 15.6,
+   "ca12_status": "poor",
+   "half_effect_kg": 87.4,
+   "half_effect_pct": 2.0,
+   "catchments": 20,
+   "cross_check": "matches the Pelto build on parcels, farms, hectares, kg and share"
+  },
+  "synthetic_only": true
+ },
+ "numbers": {
+  "n8_cl_dmax": {
+   "v": 100.0,
+   "unit": "n",
+   "dp": 0,
+   "en": "Clause reach: parcels within this many metres of water",
+   "fi": "Lausekkeen ulottuvuus: lohkot tämän metrimäärän päässä vedestä",
+   "source": "python3 pipeline/v8clause.py → clause8.json#dmax_m",
+   "script": "python3 pipeline/v8clause.py",
+   "label": "generated"
+  },
+  "n8_cl_parcels": {
+   "v": 150,
+   "unit": "n",
+   "dp": 0,
+   "en": "Contract parcels the clause covers: no buffer strip, near water, catchment below good status",
+   "fi": "Lausekkeen piiriin tulevat sopimuslohkot: ei suojakaistaa, lähellä vettä, valuma-alue hyvää huonommassa tilassa",
+   "source": "python3 pipeline/v8clause.py → clause8.json#parcels",
+   "script": "python3 pipeline/v8clause.py",
+   "label": "generated"
+  },
+  "n8_cl_farms": {
+   "v": 115,
+   "unit": "n",
+   "dp": 0,
+   "en": "Contract farms the clause covers",
+   "fi": "Lausekkeen piiriin tulevat sopimustilat",
+   "source": "python3 pipeline/v8clause.py → clause8.json#farms",
+   "script": "python3 pipeline/v8clause.py",
+   "label": "generated"
+  },
+  "n8_cl_kg": {
+   "v": 174.7,
+   "unit": "n",
+   "dp": 0,
+   "en": "Phosphorus to water avoided a year by the clause, kg (model A buffer-strip effect)",
+   "fi": "Lausekkeella vältetty fosfori vesiin vuodessa, kg (mallin A suojakaistavaikutus)",
+   "source": "python3 pipeline/v8clause.py → clause8.json#kg",
+   "script": "python3 pipeline/v8clause.py",
+   "label": "generated"
+  },
+  "n8_cl_pct": {
+   "v": 4.1,
+   "unit": "pct",
+   "dp": 1,
+   "en": "Clause saving as a share of contract phosphorus to water",
+   "fi": "Lausekkeen säästö osuutena sopimuspeltojen vesiin päätyvästä fosforista",
+   "source": "python3 pipeline/v8clause.py → clause8.json#pct",
+   "script": "python3 pipeline/v8clause.py",
+   "label": "generated"
+  },
+  "n8_cl_half_kg": {
+   "v": 87.4,
+   "unit": "n",
+   "dp": 0,
+   "en": "Pessimistic re-run: half the model's buffer-strip effect, kg a year",
+   "fi": "Varovainen uusinta: puolet mallin suojakaistavaikutuksesta, kg vuodessa",
+   "source": "python3 pipeline/v8clause.py → clause8.json#half_effect_kg",
+   "script": "python3 pipeline/v8clause.py",
+   "label": "generated"
+  },
+  "n8_cl_ca12_parcels": {
+   "v": 13,
+   "unit": "n",
+   "dp": 0,
+   "en": "Of them, parcels in CA12",
+   "fi": "Niistä lohkot CA12:lla",
+   "source": "python3 pipeline/v8clause.py → clause8.json#ca12_parcels",
+   "script": "python3 pipeline/v8clause.py",
+   "label": "generated"
+  }
+ },
+ "headline": {
+  "rec_eur": 1752253.928,
+  "gap2032_lo": 37099.58429105599
+ },
+ "synthetic_only": true,
+ "script": "python3 stages/pj-v8/build.py"
+}

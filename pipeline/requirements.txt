@@ -1,0 +1,12 @@
+# Versions of the reference run (Python 3.9.6). Direct: numpy, pandas, pyarrow, scipy, scikit-learn.
+joblib==1.5.3
+numpy==2.0.2
+pandas==2.3.3
+pyarrow==21.0.0
+python-dateutil==3.0.0
+pytz==2026.6
+scikit-learn==1.6.1
+scipy==1.13.1
+six==1.17.0
+threadpoolctl==3.7.0
+tzdata==2026.6

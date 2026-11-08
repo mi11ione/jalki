@@ -1,0 +1,468 @@
+{
+  "C1": {
+    "source_ticket_id": "step-06475-4",
+    "banked_version": "promoted median19 (c1_decision.json replaced=true)",
+    "schema_ok": true,
+    "score_recomputed": 56.56,
+    "score_banked": 56.82,
+    "match": true,
+    "metric": "official C1 formula on observed farm-season F1 proxy, 2022-2026",
+    "official_hidden_test_score": null,
+    "csv_score_direct": false,
+    "note": "Metadata corrected by step-09801-2 to the shipped CSVs; prediction files unchanged. The superseded c1-yield-e files remain under validation/C1_yield_e_*.",
+    "files": [
+      {
+        "path": "submission/C1_yields_2027_2031_submission.csv",
+        "sha256": "d8b413d6b0a1773ef831888a48e8c0c97ee90f155d8f37727d09ac3edd542481",
+        "bytes": 572124,
+        "source_files": [
+          {
+            "path": "stages/step-06475-4/C1.csv",
+            "sha256": "d8b413d6b0a1773ef831888a48e8c0c97ee90f155d8f37727d09ac3edd542481"
+          }
+        ],
+        "kind": "official target schema; materialized frozen procedure",
+        "schema": {
+          "ok": true,
+          "checks": {
+            "columns": true,
+            "row_count": true,
+            "unique_ids": true,
+            "ids_and_order": true,
+            "no_nan": true,
+            "positive": true,
+            "unchanged_template_values": true
+          },
+          "columns": [
+            "parcel_id",
+            "farm_id",
+            "region",
+            "year",
+            "crop",
+            "area_ha",
+            "yield_t_ha_pred"
+          ],
+          "rows": 12064,
+          "ids": [
+            "parcel_id",
+            "year",
+            "crop"
+          ]
+        }
+      },
+      {
+        "path": "submission/C1_dev.csv",
+        "sha256": "3c0d28ce825cb9b13b26e6399b41f938186fcc54cc9930f7a7c82e88e9947c7e",
+        "bytes": 149816,
+        "source_files": [
+          {
+            "path": "stages/step-02435-8/run.py",
+            "sha256": "ca557f1da9b3407989c6ce9e8348a5fb25412bb77fe1217744d20d3a035c1687"
+          }
+        ],
+        "kind": "dev predictions, internal",
+        "schema": {
+          "ok": true,
+          "checks": {
+            "columns": true,
+            "row_count": true,
+            "unique_ids": true,
+            "ids_and_order": true,
+            "no_nan": true,
+            "positive": true
+          },
+          "columns": [
+            "farm_id",
+            "year",
+            "crop",
+            "region",
+            "area_ha",
+            "yield_t_ha_pred"
+          ],
+          "rows": 2911,
+          "ids": [
+            "farm_id",
+            "year",
+            "crop"
+          ]
+        }
+      }
+    ],
+    "runtime_seconds": 3.84,
+    "superseded_source_ticket_id": "step-02435-8",
+    "superseded_score_banked": 56.56
+  },
+  "C2": {
+    "source_ticket_id": "step-00323-5",
+    "latest_bank_ticket_id": "step-04394-8",
+    "review_audit_ticket_id": "step-04783-11",
+    "banked_version": "PC incumbent; risk-5 promotion void and risk-6/7/8 not promoted",
+    "schema_ok": true,
+    "score_recomputed": 24.27,
+    "score_banked": 24.27,
+    "match": true,
+    "metric": "official C2 formula on six pseudo-exam region-crop rows, calibration through 2021, evaluation 2022-2026",
+    "official_hidden_test_score": null,
+    "csv_score_direct": false,
+    "note": "Target CSV copied byte-for-byte. Dev score is a replay of the frozen procedure on history, not a score of the 2041-2060 target CSV. Internal diagnostic; superiority not established.",
+    "files": [
+      {
+        "path": "stages/step-07933-2/submission/C2_climate_yield_risk_submission.csv",
+        "sha256": "0e80c8066b3f3bb63179c26272f5e3e961e40b327ec160a6895bb2fa06d45695",
+        "bytes": 814,
+        "source_files": [
+          {
+            "path": "stages/step-00323-5/C2_climate_yield_risk_submission.csv",
+            "sha256": "0e80c8066b3f3bb63179c26272f5e3e961e40b327ec160a6895bb2fa06d45695"
+          }
+        ],
+        "kind": "official target schema; exact copy",
+        "schema": {
+          "ok": true,
+          "checks": {
+            "columns": true,
+            "row_count": true,
+            "unique_ids": true,
+            "ids_and_order": true,
+            "no_nan": true,
+            "positive": true,
+            "probability_in_range": true
+          },
+          "columns": [
+            "region",
+            "crop",
+            "scenario",
+            "period",
+            "mean_yield_change_pct",
+            "p_bad_year"
+          ],
+          "rows": 18,
+          "ids": [
+            "region",
+            "crop",
+            "scenario",
+            "period"
+          ]
+        }
+      },
+      {
+        "path": "stages/step-07933-2/submission/C2_dev.csv",
+        "sha256": "e23d707b325284bccfa15536419d11f15d1a9d21fe0b7cd4033e3c65f0b662d1",
+        "bytes": 341,
+        "source_files": [
+          {
+            "path": "stages/step-01626-6/c2_r5.py",
+            "sha256": "114012b9015a21802825c6d72792fdaf7473e35ba589f740ad2a7d02167e0782"
+          }
+        ],
+        "kind": "dev predictions, internal",
+        "schema": {
+          "ok": true,
+          "checks": {
+            "columns": true,
+            "row_count": true,
+            "unique_ids": true,
+            "ids_and_order": true,
+            "no_nan": true,
+            "positive": true
+          },
+          "columns": [
+            "region",
+            "crop",
+            "scenario",
+            "period",
+            "mean_yield_change_pct",
+            "p_bad_year"
+          ],
+          "rows": 6,
+          "ids": [
+            "region",
+            "crop",
+            "scenario",
+            "period"
+          ]
+        }
+      }
+    ],
+    "runtime_seconds": 2.219
+  },
+  "C3h": {
+    "source_ticket_id": "step-04403-9",
+    "prediction_source_ticket_id": "step-01329-10",
+    "banked_version": "nested procedure P dev, retained by c3h with survives=false",
+    "schema_ok": true,
+    "score_recomputed": 51.33,
+    "score_banked": 51.33,
+    "match": true,
+    "metric": "official C1 yield-score formula used by the C3 internal nested LOYO diagnostic; not an official C3 score",
+    "official_schema_available": false,
+    "official_scorer_available": false,
+    "official_submission_ready": false,
+    "csv_score_direct": true,
+    "note": "C3 is a rubric track. No C3h target CSV/template exists; this exports the exact banked nested dev predictions using the persisted per-fold choices. No new candidate selected. Forward survival remains false.",
+    "files": [
+      {
+        "path": "stages/step-07933-2/submission/C3h_dev.csv",
+        "sha256": "193297bbb09e09b247650dfba6bc5f405bd4c0f8d45a2994447b6b030425a6e4",
+        "bytes": 301556,
+        "source_files": [
+          {
+            "path": "stages/step-04403-9/c3h.py",
+            "sha256": "01a8daee3dcfa303f9cf0c97e253ace1f2c6b09cefc8a61818668885d5bb9856"
+          },
+          {
+            "path": "stages/step-01329-10/c3-g.json",
+            "sha256": "c478e7f0b3d4f00c38b5da419b9c8b0c1b56c0778442cfe37e6573725d67bbcb"
+          }
+        ],
+        "kind": "internal dev schema only",
+        "schema": {
+          "ok": true,
+          "checks": {
+            "columns": true,
+            "row_count": true,
+            "unique_ids": true,
+            "ids_and_order": true,
+            "no_nan": true,
+            "positive": true
+          },
+          "columns": [
+            "farm_id",
+            "year",
+            "crop",
+            "region",
+            "area_ha",
+            "yield_t_ha_pred"
+          ],
+          "rows": 6100,
+          "ids": [
+            "farm_id",
+            "year",
+            "crop"
+          ]
+        }
+      }
+    ],
+    "runtime_seconds": 0.961
+  },
+  "D2": {
+    "source_ticket_id": "step-04763-7",
+    "banked_version": "d2-r5 repaired diagnostic; promoted=0",
+    "schema_ok": true,
+    "score_recomputed": 0.8571428571428571,
+    "score_banked": 0.8571428571428571,
+    "match": true,
+    "metric": "conventional F1, leave-one-material-group-out concordance with public HIC/EUDR flags; not ecological accuracy",
+    "official_schema_available": false,
+    "official_scorer_available": false,
+    "official_submission_ready": false,
+    "csv_score_direct": true,
+    "note": "D2 is a rubric track. Calls copied unchanged from the latest kept bank diagnostic and independently replayed with the existing threshold scorer. No new operating point, bootstrap, or promotion.",
+    "files": [
+      {
+        "path": "stages/step-07933-2/submission/D2_dev.csv",
+        "sha256": "9a67be306155a9c0cab54daa9653c910e0ddbf4cd0c43d19814aabf11a327c9c",
+        "bytes": 976,
+        "source_files": [
+          {
+            "path": "stages/step-04763-7/scores.json",
+            "sha256": "49d437abbb0e9a3c4bb464cae2638f6ae288d00862e7eaf22255246549a21b97"
+          },
+          {
+            "path": "stages/step-04763-7/evaluate.py",
+            "sha256": "8e6f33ee6bb028162af0f5d68ebc5f2267ad6ed6d7c162132611bde33a710b3b"
+          }
+        ],
+        "kind": "internal dev schema only",
+        "schema": {
+          "ok": true,
+          "checks": {
+            "columns": true,
+            "row_count": true,
+            "unique_ids": true,
+            "ids_and_order": true,
+            "no_nan": true,
+            "positive": true
+          },
+          "columns": [
+            "material_id",
+            "origin",
+            "group",
+            "flagged",
+            "called"
+          ],
+          "rows": 30,
+          "ids": [
+            "material_id",
+            "origin"
+          ]
+        }
+      }
+    ],
+    "runtime_seconds": 0.436
+  },
+  "E12": {
+    "source_ticket_id": "step-04024-8",
+    "latest_hostile_audit_ticket_id": "step-04774-9",
+    "banked_version": "mean_last_3, shipped; descriptive only",
+    "schema_ok": true,
+    "score_recomputed": 4751.2,
+    "score_recomputed_unrounded": 4751.2222222222235,
+    "score_banked": 4751.2,
+    "match": true,
+    "metric": "MAE m3/year, 2023-2025 origins, annual net water excluding S-BJU",
+    "forecast_2026_m3": 48330.666666666664,
+    "official_hidden_test_score": null,
+    "csv_score_direct": true,
+    "official_schema_available": false,
+    "official_scorer_available": false,
+    "official_submission_ready": false,
+    "note": "No saved mean3 CSV existed. Materialized unchanged forecasts from the banked function; comparison uses bank precision of one decimal. This forecast diagnostic is distinct from official E12, which asks for actual 2024 consumption. Forecast superiority was rejected by subsequent year audits.",
+    "files": [
+      {
+        "path": "stages/step-07933-2/submission/E12_dev.csv",
+        "sha256": "6cf08bedd7966082f4b36f7d5e5d5ecfde0c6a116e566456466a360e4846bceb",
+        "bytes": 145,
+        "source_files": [
+          {
+            "path": "stages/step-00630-3/e12_nested.py",
+            "sha256": "b7f71cf8e6a4befaac6cbee25028dc746c17a74113e791f33f14c25223565c0e"
+          },
+          {
+            "path": "stages/step-04024-8/scores.json",
+            "sha256": "d36db73192e66c2d5d6155850fa36db7f963263e25d0486df7d6e9c3be10e5d3"
+          }
+        ],
+        "kind": "internal dev predictions, exact existing mean3 function",
+        "schema": {
+          "ok": true,
+          "checks": {
+            "columns": true,
+            "row_count": true,
+            "unique_ids": true,
+            "ids_and_order": true,
+            "no_nan": true,
+            "positive": true
+          },
+          "columns": [
+            "year",
+            "actual_m3",
+            "forecast_m3",
+            "naive_m3"
+          ],
+          "rows": 3,
+          "ids": [
+            "year"
+          ]
+        }
+      },
+      {
+        "path": "stages/step-07933-2/submission/E12_forecast_2026.csv",
+        "sha256": "169d863cbc55cacea14080c16e9da100327c49154411b5cc2bd10773e48330bf",
+        "bytes": 43,
+        "source_files": [
+          {
+            "path": "stages/step-00630-3/e12_nested.py",
+            "sha256": "b7f71cf8e6a4befaac6cbee25028dc746c17a74113e791f33f14c25223565c0e"
+          },
+          {
+            "path": "stages/step-04024-8/scores.json",
+            "sha256": "d36db73192e66c2d5d6155850fa36db7f963263e25d0486df7d6e9c3be10e5d3"
+          }
+        ],
+        "kind": "internal next-year forecast; not an E12 answer",
+        "schema": {
+          "ok": true,
+          "checks": {
+            "columns": true,
+            "row_count": true,
+            "unique_ids": true,
+            "ids_and_order": true,
+            "no_nan": true,
+            "positive": true
+          },
+          "columns": [
+            "year",
+            "forecast_m3"
+          ],
+          "rows": 1,
+          "ids": [
+            "year"
+          ]
+        }
+      }
+    ],
+    "runtime_seconds": 0.158
+  },
+  "A1": {
+    "source_bank": "stages/a-final/results.json",
+    "score_banked": 97.97,
+    "metric": "official dev score, public 2023-2024 labels",
+    "official_auto_scored": true,
+    "note": "Added by step-09801-2: banked CSVs copied byte for byte; score is the dev-key score, not a hidden-test score.",
+    "files": [
+      {
+        "path": "submission/A1_issues_submission.csv",
+        "sha256": "ae29458c15c0208eacec75fccd30dca745d9601d2a7f56b853d621833f90ddff",
+        "bytes": 19913
+      },
+      {
+        "path": "submission/A1_dev.csv",
+        "sha256": "50e20f2547c9e0e6ce96dc0c416a2e4163217d0a6872fb78400becb1ba60fc9c",
+        "bytes": 30414
+      }
+    ]
+  },
+  "A2": {
+    "source_bank": "stages/a-final/results.json",
+    "score_banked": 98.27,
+    "metric": "mean official dev score, saved full-precision cross-year folds",
+    "official_auto_scored": true,
+    "note": "Added by step-09801-2: banked CSVs copied byte for byte; score is the dev-key score, not a hidden-test score.",
+    "files": [
+      {
+        "path": "submission/A2_inventory_2025_submission.csv",
+        "sha256": "c96cdfc2ce9ef0069eba9e31939bc7ab409ccf110eab1a3e1424549bbb1cefd8",
+        "bytes": 1757
+      },
+      {
+        "path": "submission/A2_dev_2024_fit_2023.csv",
+        "sha256": "6ff96651c8800bdd83f513e6ca52589b528ee0283238ecaf28d824487f4ddb02",
+        "bytes": 881
+      },
+      {
+        "path": "submission/A2_dev_2023_fit_2024.csv",
+        "sha256": "54314093dd45aa3a369f6a443f77d54180c9fe12f6c010d05b493dca1accb164",
+        "bytes": 973
+      }
+    ]
+  },
+  "D1": {
+    "source_bank": "stages/d-final/results.json",
+    "score_banked": 71.17,
+    "metric": "official dev score on public catchments",
+    "official_auto_scored": true,
+    "note": "Added by step-09801-2: banked CSVs copied byte for byte; score is the dev-key score, not a hidden-test score.",
+    "files": [
+      {
+        "path": "submission/D1_catchment_priority_submission.csv",
+        "sha256": "a31c5cd20535c0ca5feb108ac67d28be59a68a94840881a5ebf78fce572b2b93",
+        "bytes": 1291
+      }
+    ]
+  },
+  "E": {
+    "source_bank": "stages/e-all/results.json",
+    "score_banked": 100.0,
+    "metric": "official numeric dev score; diagnostic subset only",
+    "official_auto_scored": true,
+    "note": "Added by step-09801-2: banked CSVs copied byte for byte; score is the dev-key score, not a hidden-test score.",
+    "files": [
+      {
+        "path": "submission/E_answers_submission.csv",
+        "sha256": "c3e0136cda41ac1bd8c219954811519e838c33ab64e405a49fc70ca904bb78c4",
+        "bytes": 10800
+      }
+    ]
+  }
+}

@@ -1,0 +1,26 @@
+{
+ "synthetic_only": true,
+ "script": "python3 stages/pj-v8/v8clause.py",
+ "dmax_m": 100.0,
+ "below_good": [
+  "moderate",
+  "poor",
+  "bad"
+ ],
+ "cut": 0.25,
+ "contract_parcels": 1490,
+ "p_total_kg": 4272.0,
+ "nobuf_parcels": 1178,
+ "parcels": 150,
+ "farms": 115,
+ "ha": 845.8,
+ "kg": 174.7,
+ "pct": 4.1,
+ "ca12_parcels": 13,
+ "ca12_kg": 15.6,
+ "ca12_status": "poor",
+ "half_effect_kg": 87.4,
+ "half_effect_pct": 2.0,
+ "catchments": 20,
+ "cross_check": "matches the Pelto build on parcels, farms, hectares, kg and share"
+}

@@ -1,0 +1,51 @@
+{
+ "synthetic_only": true,
+ "script": "python3 stages/pj-v8/v7rape.py",
+ "inputs": [
+  "stages/pj-data/trail/l/108.json",
+  "twin/data/data/03_farming/farm_survey_fi.csv"
+ ],
+ "farms": 230,
+ "respondents": 167,
+ "resp_pct": 72.6,
+ "n_mineral": 145,
+ "y_med": 1.4,
+ "n_ha_med": 93.9,
+ "n_t_med": 68.1,
+ "bottom": {
+  "n": 41,
+  "y": 1.09,
+  "n_ha": 87.0,
+  "n_t": 80.8,
+  "n_min": 37,
+  "flag_t_min": 0.779
+ },
+ "top": {
+  "n": 41,
+  "y": 1.68,
+  "n_ha": 94.9,
+  "n_t": 55.1,
+  "n_min": 32,
+  "flag_t_min": 0.611
+ },
+ "middle": {
+  "n": 85,
+  "y": 1.4,
+  "n_ha": 95.6,
+  "n_t": 69.4,
+  "n_min": 76,
+  "flag_t_min": 0.678
+ },
+ "y_ratio": 1.54,
+ "n_ha_ratio": 0.92,
+ "n_t_ratio": 1.47,
+ "flag_t_ratio": 1.27,
+ "robust": {
+  "min_bot_third_n_t": 79.5,
+  "min_top_third_n_t": 58.6,
+  "min_bot_third_flag_t": 0.787,
+  "min_top_third_flag_t": 0.605,
+  "n_t_ratio_thirds": 1.36,
+  "flag_t_ratio_thirds": 1.3
+ }
+}

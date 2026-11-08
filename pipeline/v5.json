@@ -1,0 +1,440 @@
+{
+ "v4": {
+  "script": "python3 pipeline/build.py (v5route.py on v4model.gaps)",
+  "synthetic_only": true,
+  "model_check": "reproduces promise.gap2032/2035_noL11 within 0.5 t",
+  "capacity_out": {
+   "L01": "needs much more biogas than today",
+   "L14": "central case needs the highest volume ever bought from lower-factor origins",
+   "L22": "needs an industry coalition; Apetit cannot do it alone",
+   "L07": "the pack sizes it on ~7,300 MWh a year of Swedish biogas; Bjuv's 2025 meters show natural gas only"
+  },
+  "rec_before": [
+   "L28",
+   "L23",
+   "L21",
+   "L22",
+   "L30",
+   "L13",
+   "L16",
+   "L25",
+   "L14",
+   "L19",
+   "L07",
+   "L08",
+   "L01",
+   "L03",
+   "L18",
+   "L09",
+   "L20",
+   "L02",
+   "L12",
+   "L29",
+   "L06",
+   "L11"
+  ],
+  "sav_before": [
+   "L28",
+   "L23",
+   "L21",
+   "L22",
+   "L30"
+  ],
+  "rec_eur": 1752253.928,
+  "rec_capex": 3020000.0,
+  "rec_annual_capital": 521481.3463231556,
+  "rec_cash_opex": 1230772.5815810785,
+  "split_source": "python3 mandates/build.py → metrics.json (same lever set, same cost, checked)",
+  "sav_n": 4,
+  "sav_t": 668.655,
+  "sav_eur": -122431.532,
+  "sav_capex": 150000.0,
+  "sav_flag_t": 125.93005,
+  "cutphys2032_lo": 30.828796212379785,
+  "cutphys2032_hi": 36.11467332660841,
+  "cutbooked2032_lo": 13.910827076130827,
+  "cutbooked2032_hi": 19.196704190359462,
+  "worst2032_flag_lo": 26981.268049055987,
+  "cutphys2035_lo": 44.834122245532356,
+  "cutphys2035_hi": 51.27522622344989,
+  "cutbooked2035_lo": 27.916153109283414,
+  "cutbooked2035_hi": 34.357257087200956,
+  "worst2035_flag_lo": 44147.61709865142,
+  "route2032_s12_lo": 790.8786083387363,
+  "route2032_s12_hi": 1005.5625664387361,
+  "pause2032_s12_lo": 790.8786083387363,
+  "pause2032_s12_hi": 1005.5625664387361,
+  "route2032_s3nf_lo": 4157.658077554341,
+  "route2032_s3nf_hi": 7245.252560154333,
+  "pause2032_s3nf_lo": 7283.621105554341,
+  "pause2032_s3nf_hi": 10521.237320154334,
+  "route2032_flag_lo": 37099.58429105599,
+  "route2032_flag_hi": 45546.415400927224,
+  "pause2032_flag_lo": 37099.58429105599,
+  "pause2032_flag_hi": 45546.415400927224,
+  "routelow2032_flag_hi": 47854.80376192722,
+  "pausedelta2032_lo": 3125.963028,
+  "pausedelta2032_hi": 3275.984760000001,
+  "route2035_s12_lo": 1487.5133489185082,
+  "route2035_s12_hi": 1794.2004319185085,
+  "pause2035_s12_lo": 1487.5133489185082,
+  "pause2035_s12_hi": 1794.2004319185085,
+  "route2035_s3nf_lo": 10608.012242140301,
+  "route2035_s3nf_hi": 15001.984360140295,
+  "pause2035_s3nf_lo": 13761.530282140302,
+  "pause2035_s3nf_hi": 18369.819160140294,
+  "route2035_flag_lo": 54429.28515865142,
+  "route2035_flag_hi": 66479.38674418174,
+  "pause2035_flag_lo": 54429.28515865142,
+  "pause2035_flag_hi": 66479.38674418174,
+  "routelow2035_flag_hi": 69116.49627418174,
+  "pausedelta2035_lo": 3153.518040000001,
+  "pausedelta2035_hi": 3367.8347999999987,
+  "hvo_cost": 621901.267,
+  "hvo_flag_t": 0.0,
+  "hvo_share_pct": 35.491503660649805,
+  "route_flag_cut_t": 4153.1844,
+  "route2035_cp": {
+   "s12": 1487.5133489185082,
+   "s3nf": 10835.122242140302,
+   "flag": 54429.28515865142
+  },
+  "mandate_build_2035_cp": {
+   "s12": -23.395446170943615,
+   "s3nf": 10835.123008958333,
+   "flag": 53358.36790316558
+  },
+  "pause_s3nf_delta_2035_cp": 3153.518040000001,
+  "rape_plan_sha256": "fea13590ed1f39c6198cdf9f588a653081d809f37b4c4118912b298da6b6a3ea",
+  "rape": {
+   "source": "method of the rapeseed plan (plan.md), re-run by python3 pipeline/build.py on the route gap shown",
+   "price_central_lo": 133.0,
+   "price_central_hi": 250.0,
+   "price_full_lo": 93.1,
+   "price_full_hi": 375.0,
+   "seed_t": 104068.49186800001,
+   "seed_flag_t": 117865.50851614765,
+   "seed_share_pct": 66.8560321918175,
+   "paid_eur_t": 469.0458853954956,
+   "int_now": 1.1325763100867043,
+   "int_min_origin": 0.882,
+   "int_min_pcf": 0.73659,
+   "pcf_noise_median_pct": 13.808506506117691,
+   "origin_feasible_t": null,
+   "ramp_years": 4,
+   "floor_frac": 0.5,
+   "pj_rape_gap_2035_cp": 53358.36790316558,
+   "2032": {
+    "current_policies": {
+     "gap_t": 37099.58429105599,
+     "cut_pct": 30.828796212379782,
+     "cut_t_per_t_seed": 0.3491596425863206,
+     "target_int": 0.7834166675003837,
+     "eur_central": [
+      4934244.710710446,
+      9274896.072763996
+     ],
+     "eur_full": [
+      3453971.297497312,
+      13912344.109145995
+     ],
+     "x_route": [
+      2.815941589209236,
+      5.293123287987285
+     ],
+     "premium_eur_t_seed": [
+      46.43823246398064,
+      87.28991064658014
+     ],
+     "premium_pct_paid": [
+      9.900573464113071,
+      18.610100496453143
+     ]
+    },
+    "net_zero_2050": {
+     "gap_t": 45546.415400927224,
+     "cut_pct": 36.11467332660842,
+     "cut_t_per_t_seed": 0.4090262345623688,
+     "target_int": 0.7235500755243355,
+     "eur_central": [
+      6057673.24832332,
+      11386603.850231806
+     ],
+     "eur_full": [
+      4240371.273826324,
+      17079905.77534771
+     ],
+     "x_route": [
+      3.457075000104277,
+      6.498261278391499
+     ],
+     "premium_eur_t_seed": [
+      54.40048919679504,
+      102.25655864059219
+     ],
+     "premium_pct_paid": [
+      11.598116706838823,
+      21.800971253456435
+     ]
+    },
+    "offers": [
+     {
+      "supplier": "SUP005",
+      "country": "EE",
+      "share_pct": 17.416022775079888,
+      "central_t": 1582.094037607804,
+      "floor_t": 791.047018803902,
+      "cap_eur": 395523.509401951,
+      "ceiling_eur_t": 250.0
+     },
+     {
+      "supplier": "SUP008",
+      "country": "LV",
+      "share_pct": 10.517963405894605,
+      "central_t": 955.4654014378777,
+      "floor_t": 477.7327007189389,
+      "cap_eur": 238866.35035946945,
+      "ceiling_eur_t": 250.0
+     },
+     {
+      "supplier": "SUP011",
+      "country": "LT",
+      "share_pct": 9.414207084407419,
+      "central_t": 855.198749415841,
+      "floor_t": 427.5993747079205,
+      "cap_eur": 213799.68735396024,
+      "ceiling_eur_t": 250.0
+     }
+    ],
+    "pilot": {
+     "share_pct": 37.34819326538191,
+     "central_t": 3392.758188461523,
+     "floor_t": 1696.3790942307614,
+     "cap_eur": 848189.5471153806,
+     "floor_pct_gap": 4.572501624067326,
+     "cap_pct_route": 48.40562966142089
+    },
+    "eur_lo": 4934244.710710446,
+    "eur_hi": 11386603.850231806,
+    "x_lo": 2.815941589209236,
+    "x_hi": 6.498261278391499,
+    "tpt_lo": 0.3491596425863206,
+    "tpt_hi": 0.4090262345623688,
+    "int_lo": 0.7235500755243355,
+    "int_hi": 0.7834166675003837,
+    "prem_lo": 9.900573464113071,
+    "prem_hi": 21.800971253456435
+   },
+   "2035": {
+    "current_policies": {
+     "gap_t": 54429.28515865142,
+     "cut_pct": 44.834122245532356,
+     "cut_t_per_t_seed": 0.5077806473882126,
+     "target_int": 0.6247956626984916,
+     "eur_central": [
+      7239094.92610064,
+      13607321.289662855
+     ],
+     "eur_full": [
+      5067366.448270448,
+      20410981.934494283
+     ],
+     "x_route": [
+      4.131304721549832,
+      7.765610378853067
+     ],
+     "premium_eur_t_seed": [
+      67.53482610263228,
+      126.94516184705314
+     ],
+     "premium_pct_paid": [
+      14.398341016399167,
+      27.064550782705204
+     ]
+    },
+    "net_zero_2050": {
+     "gap_t": 66479.38674418174,
+     "cut_pct": 51.27522622344989,
+     "cut_t_per_t_seed": 0.5807310651501589,
+     "target_int": 0.5518452449365454,
+     "eur_central": [
+      8841758.436976172,
+      16619846.686045436
+     ],
+     "eur_full": [
+      6189230.90588332,
+      24929770.029068153
+     ],
+     "x_route": [
+      5.045934436607621,
+      9.484839166555679
+     ],
+     "premium_eur_t_seed": [
+      77.23723166497115,
+      145.18276628753975
+     ],
+     "premium_pct_paid": [
+      16.466881827530656,
+      30.952785390095222
+     ]
+    },
+    "offers": [
+     {
+      "supplier": "SUP005",
+      "country": "EE",
+      "share_pct": 17.416022775079888,
+      "central_t": 2300.8292960058034,
+      "floor_t": 1150.4146480029017,
+      "cap_eur": 575207.3240014508,
+      "ceiling_eur_t": 250.0
+     },
+     {
+      "supplier": "SUP008",
+      "country": "LV",
+      "share_pct": 10.517963405894605,
+      "central_t": 1389.5272560866456,
+      "floor_t": 694.7636280433228,
+      "cap_eur": 347381.8140216614,
+      "ceiling_eur_t": 250.0
+     },
+     {
+      "supplier": "SUP011",
+      "country": "LT",
+      "share_pct": 9.414207084407419,
+      "central_t": 1243.71010179565,
+      "floor_t": 621.855050897825,
+      "cap_eur": 310927.52544891246,
+      "ceiling_eur_t": 250.0
+     }
+    ],
+    "pilot": {
+     "share_pct": 37.34819326538191,
+     "central_t": 4934.066653888099,
+     "floor_t": 2467.0333269440493,
+     "cap_eur": 1233516.6634720247,
+     "floor_pct_gap": 4.5325477263813,
+     "cap_pct_route": 70.395999333267
+    },
+    "eur_lo": 7239094.92610064,
+    "eur_hi": 16619846.686045436,
+    "x_lo": 4.131304721549832,
+    "x_hi": 9.484839166555679,
+    "tpt_lo": 0.5077806473882126,
+    "tpt_hi": 0.5807310651501589,
+    "int_lo": 0.5518452449365454,
+    "int_hi": 0.6247956626984916,
+    "prem_lo": 14.398341016399167,
+    "prem_hi": 30.952785390095222
+   },
+   "pcf_noise_rule": "rapeseed PCFs in the 2025 base with a valid 2024 file; |2025/2024 - 1| (whose.py); the trunk median counted SUP022/SUP023 files whose reference period is 2022"
+  },
+  "l07_out": {
+   "capital_eur_yr": 11922.359095766029,
+   "opex_eur_yr": 140000.0,
+   "cost_eur_yr": 151922.35909576603,
+   "capex_eur": 80000.0,
+   "catalogue_trade_off": "Swedish biogas market (full-year volume ~7,300 MWh)"
+  },
+  "v4_rec_eur": 1904176.287,
+  "v4_rec_capex": 3100000.0,
+  "nol16_2032_lo": 39380.25156640598,
+  "nol16_2032_hi": 47936.53683542722
+ },
+ "v5": {
+  "script": "python3 pipeline/whose.py → whose.json",
+  "synthetic_only": true,
+  "a_library_share": 62.509484796689435,
+  "a_library_break": 7.998786130236679,
+  "a_library_t": 145036.07076299997,
+  "a_supplier_share": 22.584978805915814,
+  "a_supplier_break": 22.13860833329771,
+  "a_supplier_t": 52402.23295600001,
+  "a_farms_share": 11.331250311978154,
+  "a_farms_break": 44.125757196578284,
+  "a_farms_t": 26291.050508999993,
+  "a_ops_share": 1.9497078564856507,
+  "a_ops_break": 256.4486768295894,
+  "a_ops_t": 4523.760955000001,
+  "a_product_share": 1.624578226938915,
+  "a_product_break": 307.77219078093697,
+  "a_product_t": 3769.3870530000004,
+  "top_share": 35.317133596386796,
+  "top_break": 14.157434340910205,
+  "top_n": 6,
+  "top_source": "Agri-footprint / national LCA studies",
+  "ghost_flag": 10026.041331401439,
+  "ghost_years": 1.8768982360013722,
+  "pcf_share": 22.584978805915814,
+  "pcf_unassured": 18.250528097953723,
+  "pcf_n": 12,
+  "sw_lo": 10.962175487250603,
+  "sw_hi": 48.534734384121414,
+  "sw_med": 13.808506506117691,
+  "sw_n": 5,
+  "sw_over": 5,
+  "swa_lo": 4.4281524926686355,
+  "swa_hi": 48.534734384121414,
+  "swa_med": 11.103094436427764,
+  "swa_n": 7,
+  "y1_lo": 7.707199053094946,
+  "y1_hi": 9.028668331652103,
+  "ramp": 4,
+  "s5_share": 10.28743634237949,
+  "s5_t": 23869.167218000002,
+  "s5_yoy": 11.103094436427764,
+  "s5_p24": 78.0,
+  "s5_p25": 40.0,
+  "s5_fb": -1307.2153776219047,
+  "reg_n": 517,
+  "reg_sha": "d2232375539077f36913c83dcc54976003d75602537d8ff03eaf84db7fd012ae",
+  "reg_live": 502,
+  "edges": 8156,
+  "swing_rows": [
+   {
+    "supplier": "SUP005",
+    "material": "M102",
+    "swing_pct": 11.103094436427764,
+    "signed_pct": 11.103094436427764,
+    "file24": "data/02_raw_feeds/supplier_pcfs/SUP005_M102_2024.json",
+    "file25": "data/02_raw_feeds/supplier_pcfs/SUP005_M102_2025.json"
+   },
+   {
+    "supplier": "SUP008",
+    "material": "M103",
+    "swing_pct": 38.05933614021344,
+    "signed_pct": 38.05933614021344,
+    "file24": "data/02_raw_feeds/supplier_pcfs/SUP008_M103_2024.json",
+    "file25": "data/02_raw_feeds/supplier_pcfs/SUP008_M103_2025.json"
+   },
+   {
+    "supplier": "SUP002",
+    "material": "M101",
+    "swing_pct": 10.962175487250603,
+    "signed_pct": -10.962175487250603,
+    "file24": "data/02_raw_feeds/supplier_pcfs/SUP002_M101_2024.json",
+    "file25": "data/02_raw_feeds/supplier_pcfs/SUP002_M101_2025.json"
+   },
+   {
+    "supplier": "SUP018",
+    "material": "M106",
+    "swing_pct": 13.808506506117691,
+    "signed_pct": 13.808506506117691,
+    "file24": "data/02_raw_feeds/supplier_pcfs/SUP018_M106_2024.json",
+    "file25": "data/02_raw_feeds/supplier_pcfs/SUP018_M106_2025.json"
+   },
+   {
+    "supplier": "SUP003",
+    "material": "M101",
+    "swing_pct": 48.534734384121414,
+    "signed_pct": 48.534734384121414,
+    "file24": "data/02_raw_feeds/supplier_pcfs/SUP003_M101_2024.json",
+    "file25": "data/02_raw_feeds/supplier_pcfs/SUP003_M101_2025.json"
+   }
+  ],
+  "validated_fix_t": 1275762.944383893,
+  "n_judgement": 47,
+  "n_corrections": 134
+ },
+ "synthetic_only": true,
+ "script": "python3 stages/pj-v8/build.py"
+}

@@ -1,0 +1,24 @@
+<!doctype html>
+<html lang="fi">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
+<meta name="robots" content="noindex">
+<title>Jälki · Synthetic data</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<div id="app"></div>
+<div class="scrim" id="scrim"></div>
+<aside class="dr" id="dr" aria-hidden="true" aria-label="Lähde" role="dialog">
+  <div class="dr-top"><button class="x" id="back" type="button" aria-label="Takaisin" hidden>←</button><p class="crumb mono" id="crumb"></p><button class="x" id="close" type="button" aria-label="Sulje">✕</button><span class="lang drlang" id="drlang" role="group" aria-label="Kieli"></span></div>
+  <div class="dr-in" id="drin"></div>
+</aside>
+<div class="tour" id="tour" role="dialog" aria-label="Esittely" aria-live="polite" hidden></div>
+<div class="tip" id="tip" role="tooltip" hidden></div>
+<script src="data.js"></script>
+<script src="trail/meta.js"></script>
+<script src="ui.js"></script>
+<script src="app.js"></script>
+</body>
+</html>

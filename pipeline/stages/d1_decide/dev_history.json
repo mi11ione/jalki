@@ -1,0 +1,23 @@
+{
+ "B_devlog_order": [
+  [
+   "area",
+   53.37
+  ],
+  [
+   "full",
+   12.86
+  ],
+  [
+   "full+k1+noLS+noK",
+   68.48
+  ],
+  [
+   "area+k1",
+   47.06
+  ]
+ ],
+ "B_dev_reads_before_final": 2,
+ "B_explore_prints_dev_values": true,
+ "B_fixlog_cites_explore": true
+}

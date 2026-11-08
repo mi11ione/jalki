@@ -1,0 +1,7 @@
+region,crop,scenario,period,mean_yield_change_pct,p_bad_year
+FI_SW,carrot,dev,dev,7.842559601228505,0.0
+FI_SW,pea,dev,dev,8.777747028877148,0.0
+FI_SW,potato,dev,dev,11.691446728209186,0.0
+FI_SW,spinach,dev,dev,-4.157010718147214,0.2
+FI_SW,turnip_rape,dev,dev,5.856256574375673,0.0
+SE_SKANE,pea,dev,dev,2.9047814658581306,0.0

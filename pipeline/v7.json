@@ -1,0 +1,220 @@
+{
+ "v7": {
+  "rape": {
+   "synthetic_only": true,
+   "script": "python3 pipeline/v7rape.py",
+   "inputs": [
+    "bundle/trail/l/108.json",
+    "twin/data/data/03_farming/farm_survey_fi.csv"
+   ],
+   "farms": 230,
+   "respondents": 167,
+   "resp_pct": 72.6,
+   "n_mineral": 145,
+   "y_med": 1.4,
+   "n_ha_med": 93.9,
+   "n_t_med": 68.1,
+   "bottom": {
+    "n": 41,
+    "y": 1.09,
+    "n_ha": 87.0,
+    "n_t": 80.8,
+    "n_min": 37,
+    "flag_t_min": 0.779
+   },
+   "top": {
+    "n": 41,
+    "y": 1.68,
+    "n_ha": 94.9,
+    "n_t": 55.1,
+    "n_min": 32,
+    "flag_t_min": 0.611
+   },
+   "middle": {
+    "n": 85,
+    "y": 1.4,
+    "n_ha": 95.6,
+    "n_t": 69.4,
+    "n_min": 76,
+    "flag_t_min": 0.678
+   },
+   "y_ratio": 1.54,
+   "n_ha_ratio": 0.92,
+   "n_t_ratio": 1.47,
+   "flag_t_ratio": 1.27,
+   "robust": {
+    "min_bot_third_n_t": 79.5,
+    "min_top_third_n_t": 58.6,
+    "min_bot_third_flag_t": 0.787,
+    "min_top_third_flag_t": 0.605,
+    "n_t_ratio_thirds": 1.36,
+    "flag_t_ratio_thirds": 1.3
+   }
+  },
+  "synthetic_only": true
+ },
+ "numbers": {
+  "n7_farms": {
+   "v": 230,
+   "unit": "n",
+   "dp": 0,
+   "en": "Finnish contract turnip-rape farms, 2025",
+   "fi": "Suomalaiset rypsin sopimustilat 2025",
+   "source": "python3 pipeline/v7rape.py → rape7.json#farms",
+   "script": "python3 pipeline/v7rape.py",
+   "label": "generated"
+  },
+  "n7_resp": {
+   "v": 167,
+   "unit": "n",
+   "dp": 0,
+   "en": "Of them, farms that sent a 2025 field record (yield, nitrogen)",
+   "fi": "Niistä tilat, jotka lähettivät vuoden 2025 peltotiedot (sato, typpi)",
+   "source": "python3 pipeline/v7rape.py → rape7.json#respondents",
+   "script": "python3 pipeline/v7rape.py",
+   "label": "generated"
+  },
+  "n7_resp_pct": {
+   "v": 72.6,
+   "unit": "pct",
+   "dp": 0,
+   "en": "Share of contract turnip-rape farms with a 2025 field record",
+   "fi": "Osuus rypsin sopimustiloista, joilla on vuoden 2025 peltotiedot",
+   "source": "python3 pipeline/v7rape.py → rape7.json#resp_pct",
+   "script": "python3 pipeline/v7rape.py",
+   "label": "generated"
+  },
+  "n7_q_n": {
+   "v": 41,
+   "unit": "n",
+   "dp": 0,
+   "en": "Farms in each yield quarter (responding farms)",
+   "fi": "Tiloja kussakin satoneljänneksessä (vastanneet tilat)",
+   "source": "python3 pipeline/v7rape.py → rape7.json#bottom.n",
+   "script": "python3 pipeline/v7rape.py",
+   "label": "generated"
+  },
+  "n7_y_bot": {
+   "v": 1.09,
+   "unit": "tha",
+   "dp": 2,
+   "en": "Yield, lowest-yield quarter of farms (median)",
+   "fi": "Sato, heikoimman satoneljänneksen tilat (mediaani)",
+   "source": "python3 pipeline/v7rape.py → rape7.json#bottom.y",
+   "script": "python3 pipeline/v7rape.py",
+   "label": "generated"
+  },
+  "n7_y_top": {
+   "v": 1.68,
+   "unit": "tha",
+   "dp": 2,
+   "en": "Yield, highest-yield quarter of farms (median)",
+   "fi": "Sato, parhaan satoneljänneksen tilat (mediaani)",
+   "source": "python3 pipeline/v7rape.py → rape7.json#top.y",
+   "script": "python3 pipeline/v7rape.py",
+   "label": "generated"
+  },
+  "n7_nha_bot": {
+   "v": 87.0,
+   "unit": "kgnha",
+   "dp": 0,
+   "en": "Nitrogen per hectare, lowest-yield quarter (median)",
+   "fi": "Typpi hehtaarille, heikoin satoneljännes (mediaani)",
+   "source": "python3 pipeline/v7rape.py → rape7.json#bottom.n_ha",
+   "script": "python3 pipeline/v7rape.py",
+   "label": "generated"
+  },
+  "n7_nha_top": {
+   "v": 94.9,
+   "unit": "kgnha",
+   "dp": 0,
+   "en": "Nitrogen per hectare, highest-yield quarter (median)",
+   "fi": "Typpi hehtaarille, paras satoneljännes (mediaani)",
+   "source": "python3 pipeline/v7rape.py → rape7.json#top.n_ha",
+   "script": "python3 pipeline/v7rape.py",
+   "label": "generated"
+  },
+  "n7_nt_bot": {
+   "v": 80.8,
+   "unit": "kgnt",
+   "dp": 0,
+   "en": "Nitrogen per tonne harvested, lowest-yield quarter (median)",
+   "fi": "Typpi korjattua tonnia kohden, heikoin satoneljännes (mediaani)",
+   "source": "python3 pipeline/v7rape.py → rape7.json#bottom.n_t",
+   "script": "python3 pipeline/v7rape.py",
+   "label": "generated"
+  },
+  "n7_nt_top": {
+   "v": 55.1,
+   "unit": "kgnt",
+   "dp": 0,
+   "en": "Nitrogen per tonne harvested, highest-yield quarter (median)",
+   "fi": "Typpi korjattua tonnia kohden, paras satoneljännes (mediaani)",
+   "source": "python3 pipeline/v7rape.py → rape7.json#top.n_t",
+   "script": "python3 pipeline/v7rape.py",
+   "label": "generated"
+  },
+  "n7_fl_bot": {
+   "v": 0.779,
+   "unit": "tco2t",
+   "dp": 2,
+   "en": "Farm FLAG CO₂e per tonne harvested, lowest-yield quarter, mineral-soil farms (median)",
+   "fi": "Tilan FLAG-CO₂e korjattua tonnia kohden, heikoin satoneljännes, kivennäismaan tilat (mediaani)",
+   "source": "python3 pipeline/v7rape.py → rape7.json#bottom.flag_t_min",
+   "script": "python3 pipeline/v7rape.py",
+   "label": "generated"
+  },
+  "n7_fl_top": {
+   "v": 0.611,
+   "unit": "tco2t",
+   "dp": 2,
+   "en": "Farm FLAG CO₂e per tonne harvested, highest-yield quarter, mineral-soil farms (median)",
+   "fi": "Tilan FLAG-CO₂e korjattua tonnia kohden, paras satoneljännes, kivennäismaan tilat (mediaani)",
+   "source": "python3 pipeline/v7rape.py → rape7.json#top.flag_t_min",
+   "script": "python3 pipeline/v7rape.py",
+   "label": "generated"
+  },
+  "n7_nt_ratio": {
+   "v": 1.47,
+   "unit": "x",
+   "dp": 2,
+   "en": "Nitrogen per tonne: lowest-yield quarter ÷ highest",
+   "fi": "Typpi tonnia kohden: heikoin satoneljännes ÷ paras",
+   "source": "python3 pipeline/v7rape.py → rape7.json#n_t_ratio",
+   "script": "python3 pipeline/v7rape.py",
+   "label": "generated"
+  },
+  "n7_fl_ratio": {
+   "v": 1.27,
+   "unit": "x",
+   "dp": 2,
+   "en": "FLAG per tonne on mineral soil: lowest-yield quarter ÷ highest",
+   "fi": "FLAG tonnia kohden kivennäismaalla: heikoin satoneljännes ÷ paras",
+   "source": "python3 pipeline/v7rape.py → rape7.json#flag_t_ratio",
+   "script": "python3 pipeline/v7rape.py",
+   "label": "generated"
+  },
+  "n7_rob_nt": {
+   "v": 1.36,
+   "unit": "x",
+   "dp": 2,
+   "en": "Pessimistic re-run (thirds, mineral-soil farms only): nitrogen per tonne, lowest ÷ highest",
+   "fi": "Varovainen uusinta (kolmannekset, vain kivennäismaa): typpi tonnia kohden, heikoin ÷ paras",
+   "source": "python3 pipeline/v7rape.py → rape7.json#robust.n_t_ratio_thirds",
+   "script": "python3 pipeline/v7rape.py",
+   "label": "generated"
+  },
+  "n7_rob_fl": {
+   "v": 1.3,
+   "unit": "x",
+   "dp": 2,
+   "en": "Pessimistic re-run (thirds, mineral-soil farms only): FLAG per tonne, lowest ÷ highest",
+   "fi": "Varovainen uusinta (kolmannekset, vain kivennäismaa): FLAG tonnia kohden, heikoin ÷ paras",
+   "source": "python3 pipeline/v7rape.py → rape7.json#robust.flag_t_ratio_thirds",
+   "script": "python3 pipeline/v7rape.py",
+   "label": "generated"
+  }
+ },
+ "synthetic_only": true,
+ "script": "python3 stages/pj-v8/build.py"
+}

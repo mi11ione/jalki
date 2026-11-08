@@ -1,0 +1,1266 @@
+{
+ "v6": {
+  "ask": [
+   {
+    "id": "A1",
+    "dec": [
+     "S"
+    ],
+    "e_ref": [
+     "E39"
+    ],
+    "q": [
+     "Does a lower supplier footprint (PCF) count as a reduction?",
+     "Lasketaanko toimittajan pienempi jalanjälki (PCF) vähennykseksi?"
+    ],
+    "a": [
+     "Not by itself. A new or revised PCF changes the data, not the field. The GHG Protocol handles methodology and data changes through base-year recalculation once they pass a significance threshold, not as abatement, and the pack's lever catalogue labels the move to supplier-specific data a measurement improvement, not abatement. Count a cut only when field activity changes (nitrogen rate, yield, area) against a like-for-like baseline; re-run a revised PCF on the frozen base and report it on its own line.",
+     "Ei sellaisenaan. Uusi tai korjattu PCF muuttaa tietoa, ei peltoa. GHG Protocol käsittelee menetelmä- ja tietomuutokset perusvuoden uudelleenlaskentana, kun ne ylittävät merkittävyysrajan, ei vähennyksinä, ja paketin keinoluettelo kutsuu siirtymää toimittajakohtaiseen dataan mittaamisen parantamiseksi, ei vähennykseksi. Laske vähennys vain, kun peltotoiminta muuttuu (typpimäärä, sato, ala) vertailukelpoiseen lähtötasoon nähden; aja korjattu PCF lukittuun perusvuoteen ja raportoi se omalla rivillään."
+    ],
+    "kw": [
+     "pcf",
+     "footprint",
+     "supplier",
+     "reduction",
+     "lower",
+     "revised",
+     "jalanjälki",
+     "toimittaja",
+     "vähennys",
+     "pienempi"
+    ],
+    "cites": [
+     {
+      "file": "twin/data/data/07_frameworks/framework_digest.md",
+      "section": "Accounting: GHG Protocol",
+      "quote": "Base-year recalculation after structural changes (acquisitions, divestments) and methodology changes above a significance threshold.",
+      "show": [
+       "Framework digest (pack, status 3 Nov 2026)",
+       "Viitekehystiivistelmä (paketti, tilanne 3.11.2026)"
+      ],
+      "path": "data/07_frameworks/framework_digest.md"
+     },
+     {
+      "file": "twin/data/data/05_scenarios/decarbonisation_levers.csv",
+      "section": "L27",
+      "quote": "Spend-based to supplier-specific data (measurement improvement, not abatement)",
+      "show": [
+       "Lever catalogue (pack)",
+       "Keinoluettelo (paketti)"
+      ],
+      "path": "data/05_scenarios/decarbonisation_levers.csv"
+     },
+     {
+      "file": "twin/data/data/05_scenarios/decarbonisation_levers.csv",
+      "section": "L27",
+      "quote": "reported change is not a real reduction",
+      "show": [
+       "Lever catalogue (pack)",
+       "Keinoluettelo (paketti)"
+      ],
+      "path": "data/05_scenarios/decarbonisation_levers.csv"
+     }
+    ],
+    "docs": [
+     {
+      "name": "GHG Protocol Corporate Standard / Scope 3 Standard",
+      "url": null,
+      "in_registry": false
+     }
+    ],
+    "where": "gate"
+   },
+   {
+    "id": "A2",
+    "dec": [
+     "M"
+    ],
+    "e_ref": [
+     "E32"
+    ],
+    "q": [
+     "When must the base year be recalculated?",
+     "Milloin perusvuosi on laskettava uudelleen?"
+    ],
+    "a": [
+     "After a structural change (an acquisition or a divestment) or a methodology change that passes the significance threshold. Apetit's briefing puts that threshold at {k:meter.line}. In the pack it is already triggered once: Foodhills was acquired on 27 November 2025, and the pack's methodology names that acquisition as a reason to recalculate. The peat method is a methodology change, so The base measures it against the same line. For a new base year, SBTi V2 prefers the most recent year with comprehensive data.",
+     "Rakennemuutoksen (yritysosto tai -myynti) tai merkittävyysrajan ylittävän menetelmämuutoksen jälkeen. Apetitin briefingissä raja on {k:meter.line}. Paketissa se on jo lauennut kerran: Foodhills ostettiin 27.11.2025, ja paketin menetelmäkuvaus nimeää oston syyksi laskea uudelleen. Turvemenetelmä on menetelmämuutos, joten Perusvuosi-osio mittaa sen samaa rajaa vasten. Uudeksi perusvuodeksi SBTi V2 suosii viimeisintä vuotta, jolta on kattavat tiedot."
+    ],
+    "kw": [
+     "base",
+     "year",
+     "recalculat",
+     "restat",
+     "threshold",
+     "acquisition",
+     "divest",
+     "perusvuo",
+     "uudelleen",
+     "raja",
+     "yritysost"
+    ],
+    "cites": [
+     {
+      "file": "twin/data/data/07_frameworks/framework_digest.md",
+      "section": "Accounting: GHG Protocol",
+      "quote": "Base-year recalculation after structural changes (acquisitions, divestments) and methodology changes above a significance threshold.",
+      "show": [
+       "Framework digest (pack, status 3 Nov 2026)",
+       "Viitekehystiivistelmä (paketti, tilanne 3.11.2026)"
+      ],
+      "path": "data/07_frameworks/framework_digest.md"
+     },
+     {
+      "file": "twin/data/docs/METHODOLOGY.md",
+      "section": "1. Organisational boundary and structural changes",
+      "quote": "Because of the acquisition, a base-year recalculation is needed.",
+      "show": [
+       "Pack methodology",
+       "Paketin menetelmäkuvaus"
+      ],
+      "path": "docs/METHODOLOGY.md"
+     },
+     {
+      "file": "twin/data/data/07_frameworks/framework_digest.md",
+      "section": "Climate targets: SBTi",
+      "quote": "V2 prefers the most recent year with comprehensive data as base year",
+      "show": [
+       "Framework digest (pack, status 3 Nov 2026)",
+       "Viitekehystiivistelmä (paketti, tilanne 3.11.2026)"
+      ],
+      "path": "data/07_frameworks/framework_digest.md"
+     },
+     {
+      "file": "run/brief.md",
+      "section": "Base year recalculations",
+      "quote": "Apetit must recalculate its base year (such as a 2025 baseline) under science-based target rules.",
+      "show": [
+       "Apetit challenge briefing, 6 Nov 2026 (team notes)",
+       "Apetitin haastebriefing 6.11.2026 (tiimin muistiinpanot)"
+      ],
+      "path": "Apetit briefing notes"
+     }
+    ],
+    "docs": [
+     {
+      "name": "GHG Protocol Corporate Standard / Scope 3 Standard",
+      "url": null,
+      "in_registry": false
+     },
+     {
+      "name": "SBTi Corporate Net-Zero Standard V2.0",
+      "url": "https://files.sciencebasedtargets.org/production/files/Corporate-Net-Zero-Standard-version-2.pdf",
+      "in_registry": true
+     }
+    ],
+    "where": "gate"
+   },
+   {
+    "id": "A3",
+    "dec": [
+     "L"
+    ],
+    "e_ref": [
+     "E34"
+    ],
+    "q": [
+     "Does moving crops off peat count as a FLAG reduction?",
+     "Lasketaanko viljelyn siirto pois turpeelta FLAG-vähennykseksi?"
+    ],
+    "a": [
+     "Only where the land changes. Drained organic soils are FLAG emissions, so they leave our FLAG inventory when our contract crop leaves the parcel. But a drained parcel keeps emitting whoever farms it: under grass the pack's method still charges {k:v3.w_grass_t_ha} against {k:v3.w_crop_t_ha} under annual crops. The digest gives no rule that credits a contract move as a cut on the land, so Jälki counts it only on rewetted parcels (decision L) and labels rotation \"rotation, not reduction\".",
+     "Vain kun maa muuttuu. Ojitettujen eloperäisten maiden päästöt ovat FLAG-päästöjä, joten ne poistuvat FLAG-inventaariostamme, kun sopimuskasvimme lähtee lohkolta. Ojitettu lohko päästää kuitenkin edelleen, kuka sitä viljeleekin: nurmella paketin menetelmä laskee yhä {k:v3.w_grass_t_ha} vs. {k:v3.w_crop_t_ha} yksivuotisilla kasveilla. Tiivistelmässä ei ole sääntöä, joka hyvittäisi sopimuksen siirron maan vähennyksenä, joten Jälki laskee sen vain uudelleen soistetuilla lohkoilla (päätös L) ja merkitsee kierron \"kierto, ei vähennys\"."
+    ],
+    "kw": [
+     "peat",
+     "organic",
+     "drained",
+     "moving",
+     "move",
+     "crops",
+     "rotation",
+     "turve",
+     "turpeelta",
+     "siirto",
+     "ojitet",
+     "kierto"
+    ],
+    "cites": [
+     {
+      "file": "twin/data/data/07_frameworks/framework_digest.md",
+      "section": "Climate targets: SBTi",
+      "quote": "FLAG = land-based emissions and removals: on-farm N2O and CH4, drained organic soils, liming, land-use change, soil carbon.",
+      "show": [
+       "Framework digest (pack, status 3 Nov 2026)",
+       "Viitekehystiivistelmä (paketti, tilanne 3.11.2026)"
+      ],
+      "path": "data/07_frameworks/framework_digest.md"
+     },
+     {
+      "file": "twin/data/docs/METHODOLOGY.md",
+      "section": "5. Contract-farm footprint",
+      "quote": "29.0 t CO2/ha/yr for annual crops (20.9 for grass)",
+      "show": [
+       "Pack methodology",
+       "Paketin menetelmäkuvaus"
+      ],
+      "path": "docs/METHODOLOGY.md"
+     },
+     {
+      "file": "twin/data/data/05_scenarios/decarbonisation_levers.csv",
+      "section": "L11",
+      "quote": "Shift contract area away from drained organic (peat) soils",
+      "show": [
+       "Lever catalogue (pack)",
+       "Keinoluettelo (paketti)"
+      ],
+      "path": "data/05_scenarios/decarbonisation_levers.csv"
+     }
+    ],
+    "docs": [
+     {
+      "name": "SBTi FLAG",
+      "url": "https://sciencebasedtargets.org/sector-development/forest-land-and-agriculture/",
+      "in_registry": true
+     }
+    ],
+    "where": "gate"
+   },
+   {
+    "id": "A4",
+    "dec": [
+     "L"
+    ],
+    "e_ref": [
+     "E37"
+    ],
+    "q": [
+     "What counts as a removal?",
+     "Mikä lasketaan poistumaksi?"
+    ],
+    "a": [
+     "Under the GHG Protocol Land Sector and Removals Standard (v1.1, effective 1 January 2027), reporting removals is optional, and a removal must be monitored and traceable, with reversals accounted for. The pack models no removals (soil carbon from catch crops is listed as not modelled), so Jälki claims none. The L12 rewetting pilot is counted as lower emissions from drained soil, not as a removal.",
+     "GHG Protocolin maankäyttö- ja poistumastandardin (v1.1, voimaan 1.1.2027) mukaan poistumien raportointi on vapaaehtoista, ja poistuman on oltava seurattu ja jäljitettävä, ja sen palautuminen on otettava huomioon. Paketti ei mallinna poistumia (kerääjäkasvien maaperän hiili on mainittu mallintamattomana), joten Jälki ei väitä yhtään. L12-soistuspilotti lasketaan ojitetun maan pienempinä päästöinä, ei poistumana."
+    ],
+    "kw": [
+     "removal",
+     "removals",
+     "sequestr",
+     "carbon",
+     "rewet",
+     "catch",
+     "poistum",
+     "hiili",
+     "soist",
+     "lsr"
+    ],
+    "cites": [
+     {
+      "file": "twin/data/data/07_frameworks/framework_digest.md",
+      "section": "Land Sector and Removals Standard (LSR)",
+      "quote": "v1.0 January 2026, v1.1 June 2026, effective 1 January 2027.",
+      "show": [
+       "Framework digest (pack, status 3 Nov 2026)",
+       "Viitekehystiivistelmä (paketti, tilanne 3.11.2026)"
+      ],
+      "path": "data/07_frameworks/framework_digest.md"
+     },
+     {
+      "file": "twin/data/data/07_frameworks/framework_digest.md",
+      "section": "Land Sector and Removals Standard (LSR)",
+      "quote": "removals (optional to report; must be monitored, traceable and reversals accounted for)",
+      "show": [
+       "Framework digest (pack, status 3 Nov 2026)",
+       "Viitekehystiivistelmä (paketti, tilanne 3.11.2026)"
+      ],
+      "path": "data/07_frameworks/framework_digest.md"
+     },
+     {
+      "file": "twin/data/docs/ASSUMPTIONS_AND_LIMITATIONS.md",
+      "section": "Not modelled",
+      "quote": "removals (for example soil carbon from catch crops), which are optional under the GHG Protocol LSR Standard and require monitoring",
+      "show": [
+       "Pack assumptions and limitations",
+       "Paketin oletukset ja rajoitukset"
+      ],
+      "path": "docs/ASSUMPTIONS_AND_LIMITATIONS.md"
+     }
+    ],
+    "docs": [
+     {
+      "name": "GHG Protocol Land Sector and Removals Standard",
+      "url": "https://ghgprotocol.org/land-sector-and-removals-standard",
+      "in_registry": true
+     }
+    ],
+    "where": "gate"
+   },
+   {
+    "id": "A5",
+    "dec": [
+     "P"
+    ],
+    "e_ref": [],
+    "q": [
+     "Which SBTi standard sets our target year?",
+     "Mikä SBTi-standardi määrää tavoitevuotemme?"
+    ],
+    "a": [
+     "Apetit committed in December 2025 and has 24 months to submit. Version 1.3.1 stays usable until the end of 2027; V2.0 takes effect on 1 February 2027 and is mandatory for new and renewed targets from 31 January 2028. V2 asks for five-year near-term targets, which is why 2032 is the recommended target year; 2035 fits V1.3.1's window of 5 to 10 years from submission.",
+     "Apetit sitoutui joulukuussa 2025, ja sillä on 24 kuukautta aikaa jättää tavoitteet. Versio 1.3.1 on käytettävissä vuoden 2027 loppuun; V2.0 tulee voimaan 1.2.2027 ja on pakollinen uusille ja uusituille tavoitteille 31.1.2028 alkaen. V2 edellyttää viiden vuoden lähiajan tavoitteita, siksi suositeltu tavoitevuosi on 2032; 2035 mahtuu V1.3.1:n 5–10 vuoden ikkunaan jättämisestä."
+    ],
+    "kw": [
+     "sbti",
+     "version",
+     "standard",
+     "target",
+     "2032",
+     "2035",
+     "submit",
+     "tavoitevuo",
+     "versio",
+     "standardi"
+    ],
+    "cites": [
+     {
+      "file": "twin/data/data/07_frameworks/framework_digest.md",
+      "section": "Climate targets: SBTi",
+      "quote": "Committed in December 2025 to set near-term targets (24 months to submit).",
+      "show": [
+       "Framework digest (pack, status 3 Nov 2026)",
+       "Viitekehystiivistelmä (paketti, tilanne 3.11.2026)"
+      ],
+      "path": "data/07_frameworks/framework_digest.md"
+     },
+     {
+      "file": "twin/data/data/07_frameworks/framework_digest.md",
+      "section": "Climate targets: SBTi",
+      "quote": "V1.3.1 remains usable until end-2027; V2 is mandatory for new and renewed targets from 31 January 2028.",
+      "show": [
+       "Framework digest (pack, status 3 Nov 2026)",
+       "Viitekehystiivistelmä (paketti, tilanne 3.11.2026)"
+      ],
+      "path": "data/07_frameworks/framework_digest.md"
+     },
+     {
+      "file": "twin/data/data/07_frameworks/framework_digest.md",
+      "section": "Climate targets: SBTi",
+      "quote": "V2.0 published 11 June 2026, effective 1 February 2027.",
+      "show": [
+       "Framework digest (pack, status 3 Nov 2026)",
+       "Viitekehystiivistelmä (paketti, tilanne 3.11.2026)"
+      ],
+      "path": "data/07_frameworks/framework_digest.md"
+     },
+     {
+      "file": "twin/data/data/07_frameworks/framework_digest.md",
+      "section": "Climate targets: SBTi",
+      "quote": "Near-term targets cover 5-10 years from submission (V2: 5 years).",
+      "show": [
+       "Framework digest (pack, status 3 Nov 2026)",
+       "Viitekehystiivistelmä (paketti, tilanne 3.11.2026)"
+      ],
+      "path": "data/07_frameworks/framework_digest.md"
+     }
+    ],
+    "docs": [
+     {
+      "name": "SBTi Corporate Net-Zero Standard V2.0",
+      "url": "https://files.sciencebasedtargets.org/production/files/Corporate-Net-Zero-Standard-version-2.pdf",
+      "in_registry": true
+     },
+     {
+      "name": "SBTi CNZS V1.3.1 Method Appendix",
+      "url": "https://files.sciencebasedtargets.org/production/files/CNZS-V1.3.1-Method-Appendix.pdf",
+      "in_registry": true
+     }
+    ],
+    "where": "gate"
+   },
+   {
+    "id": "A6",
+    "dec": [
+     "P"
+    ],
+    "e_ref": [
+     "E30",
+     "E31"
+    ],
+    "q": [
+     "Do we need a separate FLAG target, and at what pace?",
+     "Tarvitsemmeko erillisen FLAG-tavoitteen, ja millä vauhdilla?"
+    ],
+    "a": [
+     "Yes. SBTi makes a FLAG target mandatory for food production and food and beverage processing companies, whatever their FLAG share, and it comes with a commitment to eliminate deforestation (cut-off no later than 2020). The minimum pace in the V1.3.1 method appendix is {k:rate.flag} a year for FLAG, next to {k:rate.s12} for Scope 1+2 and {k:rate.s3nf} for other Scope 3. That is why the three targets carry separate mandates.",
+     "Kyllä. SBTi edellyttää FLAG-tavoitetta elintarviketuotannon sekä elintarvike- ja juomateollisuuden yrityksiltä niiden FLAG-osuudesta riippumatta, ja siihen kuuluu sitoumus lopettaa metsäkato (raja-aika viimeistään 2020). V1.3.1:n menetelmäliitteen vähimmäisvauhti on FLAG:lle {k:rate.flag} vuodessa, Scope 1+2:lle {k:rate.s12} ja muulle Scope 3:lle {k:rate.s3nf}. Siksi kolmella tavoitteella on omat valtuutuksensa."
+    ],
+    "kw": [
+     "flag",
+     "separate",
+     "pace",
+     "rate",
+     "mandatory",
+     "deforest",
+     "erillinen",
+     "vauhti",
+     "metsäkato",
+     "pakollinen"
+    ],
+    "cites": [
+     {
+      "file": "twin/data/data/07_frameworks/framework_digest.md",
+      "section": "Climate targets: SBTi",
+      "quote": "Mandatory for food production and food & beverage processing companies, and for any company whose FLAG emissions exceed 20 % of the total.",
+      "show": [
+       "Framework digest (pack, status 3 Nov 2026)",
+       "Viitekehystiivistelmä (paketti, tilanne 3.11.2026)"
+      ],
+      "path": "data/07_frameworks/framework_digest.md"
+     },
+     {
+      "file": "twin/data/data/07_frameworks/framework_digest.md",
+      "section": "Climate targets: SBTi",
+      "quote": "Requires a commitment to eliminate deforestation, with a cut-off date no later than 2020",
+      "show": [
+       "Framework digest (pack, status 3 Nov 2026)",
+       "Viitekehystiivistelmä (paketti, tilanne 3.11.2026)"
+      ],
+      "path": "data/07_frameworks/framework_digest.md"
+     },
+     {
+      "file": "twin/data/data/07_frameworks/framework_digest.md",
+      "section": "Minimum ambition (V1.3.1 method appendix)",
+      "quote": "Scope 1+2: 4.2 %/yr linear (1.5 C). Scope 3: 2.5 %/yr (well-below 2 C). FLAG: 3.03 %/yr.",
+      "show": [
+       "Framework digest (pack, status 3 Nov 2026)",
+       "Viitekehystiivistelmä (paketti, tilanne 3.11.2026)"
+      ],
+      "path": "data/07_frameworks/framework_digest.md"
+     }
+    ],
+    "docs": [
+     {
+      "name": "SBTi FLAG",
+      "url": "https://sciencebasedtargets.org/sector-development/forest-land-and-agriculture/",
+      "in_registry": true
+     },
+     {
+      "name": "SBTi CNZS V1.3.1 Method Appendix",
+      "url": "https://files.sciencebasedtargets.org/production/files/CNZS-V1.3.1-Method-Appendix.pdf",
+      "in_registry": true
+     }
+    ],
+    "where": "gate"
+   },
+   {
+    "id": "A7",
+    "dec": [],
+    "where": "nature",
+    "e_ref": [
+     "E38"
+    ],
+    "q": [
+     "Which SBTN step ranks our catchments, and on what?",
+     "Mikä SBTN-vaihe asettaa valuma-alueemme järjestykseen, ja millä perusteella?"
+    ],
+    "a": [
+     "Step 2, interpret and prioritise: pressure times the state of nature. For freshwater quality, SBTN targets the limiting nutrient at sub-basin level, often phosphorus in Finnish lakes. This fold ranks catchments on phosphorus reaching water per tonne harvested and shows each catchment's ecological status beside it. Setting a target is step 3.",
+     "Vaihe 2, tulkinta ja priorisointi: paine kertaa luonnon tila. Vedenlaadussa SBTN kohdistaa tavoitteet rajoittavaan ravinteeseen osavaluma-aluetasolla, Suomen järvissä usein fosforiin. Tämä osio järjestää valuma-alueet vesiin päätyvän fosforin mukaan korjattua tonnia kohden ja näyttää kunkin ekologisen tilan rinnalla. Tavoitteen asettaminen on vaihe 3."
+    ],
+    "kw": [
+     "sbtn",
+     "catchment",
+     "nature",
+     "phosphorus",
+     "lake",
+     "eutroph",
+     "water",
+     "nutrient",
+     "valuma",
+     "fosfor",
+     "järv",
+     "rehevöi",
+     "luonto",
+     "ravin"
+    ],
+    "cites": [
+     {
+      "file": "twin/data/data/07_frameworks/framework_digest.md",
+      "section": "Nature: SBTN, TNFD, ESRS",
+      "quote": "2 interpret & prioritise (pressure x state of nature)",
+      "show": [
+       "Framework digest (pack, status 3 Nov 2026)",
+       "Viitekehystiivistelmä (paketti, tilanne 3.11.2026)"
+      ],
+      "path": "data/07_frameworks/framework_digest.md"
+     },
+     {
+      "file": "twin/data/data/07_frameworks/framework_digest.md",
+      "section": "Freshwater quality",
+      "quote": "Nutrient targets focus on the limiting nutrient (often phosphorus in Finnish lakes) at sub-basin level",
+      "show": [
+       "Framework digest (pack, status 3 Nov 2026)",
+       "Viitekehystiivistelmä (paketti, tilanne 3.11.2026)"
+      ],
+      "path": "data/07_frameworks/framework_digest.md"
+     },
+     {
+      "file": "twin/data/docs/NATURE_SBTN.md",
+      "section": "Mapping to SBTN steps",
+      "quote": "Freshwater quality: the limiting nutrient in Finnish lakes is often phosphorus.",
+      "show": [
+       "Pack nature and SBTN note",
+       "Paketin luonto- ja SBTN-kuvaus"
+      ],
+      "path": "docs/NATURE_SBTN.md"
+     }
+    ],
+    "docs": [
+     {
+      "name": "SBTN Step 2 technical guidance v1.1",
+      "url": "https://sciencebasedtargetsnetwork.org/wp-content/uploads/2024/07/Technical-Guidance-2024-Step2-Prioritize-v1-1.pdf",
+      "in_registry": true
+     }
+    ]
+   }
+  ],
+  "ask_check": "every quote found word for word in its cited file; every section label found; every source document in the registry or named in the digest",
+  "catch": [
+   {
+    "id": "CA23",
+    "idx": 1.655,
+    "status": "moderate",
+    "water": "river",
+    "p_kg": 251.9,
+    "tons": 433.1,
+    "farms": 13,
+    "rank_t": 17
+   },
+   {
+    "id": "CA13",
+    "idx": 1.473,
+    "status": "moderate",
+    "water": "river",
+    "p_kg": 140.0,
+    "tons": 270.6,
+    "farms": 10,
+    "rank_t": 21
+   },
+   {
+    "id": "CA14",
+    "idx": 1.358,
+    "status": "moderate",
+    "water": "river",
+    "p_kg": 348.5,
+    "tons": 3621.5,
+    "farms": 25,
+    "rank_t": 7
+   },
+   {
+    "id": "CA10",
+    "idx": 1.32,
+    "status": "good",
+    "water": "river",
+    "p_kg": 122.6,
+    "tons": 264.5,
+    "farms": 17,
+    "rank_t": 18
+   },
+   {
+    "id": "CA26",
+    "idx": 1.315,
+    "status": "moderate",
+    "water": "river",
+    "p_kg": 75.9,
+    "tons": 164.2,
+    "farms": 9,
+    "rank_t": 25
+   },
+   {
+    "id": "CA24",
+    "idx": 1.28,
+    "status": "good",
+    "water": "river",
+    "p_kg": 371.4,
+    "tons": 3868.5,
+    "farms": 35,
+    "rank_t": 1
+   },
+   {
+    "id": "CA27",
+    "idx": 1.259,
+    "status": "poor",
+    "water": "river",
+    "p_kg": 77.5,
+    "tons": 175.2,
+    "farms": 8,
+    "rank_t": 22
+   },
+   {
+    "id": "CA12",
+    "idx": 1.179,
+    "status": "poor",
+    "water": "river",
+    "p_kg": 392.0,
+    "tons": 5375.3,
+    "farms": 36,
+    "rank_t": 4
+   },
+   {
+    "id": "CA21",
+    "idx": 1.155,
+    "status": "good",
+    "water": "river",
+    "p_kg": 255.7,
+    "tons": 630.1,
+    "farms": 25,
+    "rank_t": 10
+   },
+   {
+    "id": "CA02",
+    "idx": 1.15,
+    "status": "poor",
+    "water": "lake",
+    "p_kg": 58.5,
+    "tons": 598.8,
+    "farms": 11,
+    "rank_t": 16
+   },
+   {
+    "id": "CA09",
+    "idx": 1.14,
+    "status": "moderate",
+    "water": "river",
+    "p_kg": 58.0,
+    "tons": 1343.8,
+    "farms": 6,
+    "rank_t": 23
+   },
+   {
+    "id": "CA06",
+    "idx": 1.139,
+    "status": "poor",
+    "water": "lake",
+    "p_kg": 246.7,
+    "tons": 3656.4,
+    "farms": 25,
+    "rank_t": 5
+   },
+   {
+    "id": "CA11",
+    "idx": 1.104,
+    "status": "moderate",
+    "water": "river",
+    "p_kg": 168.3,
+    "tons": 4702.0,
+    "farms": 15,
+    "rank_t": 20
+   },
+   {
+    "id": "CA18",
+    "idx": 1.099,
+    "status": "bad",
+    "water": "lake",
+    "p_kg": 153.4,
+    "tons": 1878.6,
+    "farms": 15,
+    "rank_t": 2
+   },
+   {
+    "id": "CA03",
+    "idx": 1.023,
+    "status": "poor",
+    "water": "lake",
+    "p_kg": 243.3,
+    "tons": 676.7,
+    "farms": 24,
+    "rank_t": 9
+   },
+   {
+    "id": "CA08",
+    "idx": 1.0,
+    "status": "poor",
+    "water": "lake",
+    "p_kg": 138.1,
+    "tons": 920.9,
+    "farms": 18,
+    "rank_t": 8
+   },
+   {
+    "id": "CA16",
+    "idx": 0.998,
+    "status": "poor",
+    "water": "lake",
+    "p_kg": 105.5,
+    "tons": 300.7,
+    "farms": 13,
+    "rank_t": 11
+   },
+   {
+    "id": "CA15",
+    "idx": 0.97,
+    "status": "poor",
+    "water": "lake",
+    "p_kg": 91.2,
+    "tons": 1130.3,
+    "farms": 11,
+    "rank_t": 15
+   },
+   {
+    "id": "CA28",
+    "idx": 0.907,
+    "status": "moderate",
+    "water": "lake",
+    "p_kg": 177.8,
+    "tons": 3463.1,
+    "farms": 25,
+    "rank_t": 6
+   },
+   {
+    "id": "CA19",
+    "idx": 0.903,
+    "status": "good",
+    "water": "river",
+    "p_kg": 15.6,
+    "tons": 49.2,
+    "farms": 4,
+    "rank_t": 26
+   },
+   {
+    "id": "CA25",
+    "idx": 0.85,
+    "status": "poor",
+    "water": "lake",
+    "p_kg": 121.8,
+    "tons": 429.0,
+    "farms": 19,
+    "rank_t": 13
+   },
+   {
+    "id": "CA17",
+    "idx": 0.825,
+    "status": "poor",
+    "water": "lake",
+    "p_kg": 113.5,
+    "tons": 1296.9,
+    "farms": 17,
+    "rank_t": 12
+   },
+   {
+    "id": "CA01",
+    "idx": 0.823,
+    "status": "good",
+    "water": "lake",
+    "p_kg": 249.1,
+    "tons": 7161.5,
+    "farms": 33,
+    "rank_t": 14
+   },
+   {
+    "id": "CA07",
+    "idx": 0.803,
+    "status": "poor",
+    "water": "lake",
+    "p_kg": 220.8,
+    "tons": 1228.2,
+    "farms": 22,
+    "rank_t": 3
+   },
+   {
+    "id": "CA22",
+    "idx": 0.736,
+    "status": "good",
+    "water": "lake",
+    "p_kg": 44.1,
+    "tons": 170.4,
+    "farms": 5,
+    "rank_t": 24
+   },
+   {
+    "id": "CA20",
+    "idx": 0.733,
+    "status": "poor",
+    "water": "coastal",
+    "p_kg": 21.1,
+    "tons": 174.7,
+    "farms": 5,
+    "rank_t": 19
+   }
+  ],
+  "synthetic_only": true
+ },
+ "numbers": {
+  "n6_top_n": {
+   "v": 10,
+   "unit": "n",
+   "dp": 0,
+   "en": "Farms compared in each list",
+   "fi": "Verrattavat tilat kummassakin listassa",
+   "source": "python3 pipeline/v6nature.py → nature6.json#top_n",
+   "script": "python3 pipeline/v6nature.py",
+   "label": "generated"
+  },
+  "n6_top_t_t_pct": {
+   "v": 29.6,
+   "unit": "pct",
+   "dp": 1,
+   "en": "Share of contract-farm CO₂e on the 10 highest-emitting farms",
+   "fi": "Sopimustilojen CO₂e-osuus 10 suurimmalla päästäjällä",
+   "source": "python3 pipeline/v6nature.py → nature6.json#top_t_t_pct",
+   "script": "python3 pipeline/v6nature.py",
+   "label": "generated"
+  },
+  "n6_top_t_p_pct": {
+   "v": 2.5,
+   "unit": "pct",
+   "dp": 1,
+   "en": "Share of contract phosphorus to water from the 10 highest-emitting farms (model A)",
+   "fi": "Sopimuspeltojen vesiin päätyvän fosforin osuus 10 suurimmalta päästäjältä (malli A)",
+   "source": "python3 pipeline/v6nature.py → nature6.json#top_t_p_pct",
+   "script": "python3 pipeline/v6nature.py",
+   "label": "generated"
+  },
+  "n6_top_p_p_pct": {
+   "v": 12.0,
+   "unit": "pct",
+   "dp": 1,
+   "en": "Share of contract phosphorus to water from the 10 highest-phosphorus farms",
+   "fi": "Fosforiosuus 10 eniten fosforia päästävältä tilalta",
+   "source": "python3 pipeline/v6nature.py → nature6.json#top_p_p_pct",
+   "script": "python3 pipeline/v6nature.py",
+   "label": "generated"
+  },
+  "n6_top_p_t_pct": {
+   "v": 3.2,
+   "unit": "pct",
+   "dp": 1,
+   "en": "Share of contract-farm CO₂e on the 10 highest-phosphorus farms",
+   "fi": "CO₂e-osuus 10 eniten fosforia päästävällä tilalla",
+   "source": "python3 pipeline/v6nature.py → nature6.json#top_p_t_pct",
+   "script": "python3 pipeline/v6nature.py",
+   "label": "generated"
+  },
+  "n6_overlap": {
+   "v": 0,
+   "unit": "n",
+   "dp": 0,
+   "en": "Farms on both top-10 lists (emissions, phosphorus)",
+   "fi": "Tilat molemmilla top 10 -listoilla (päästöt, fosfori)",
+   "source": "python3 pipeline/v6nature.py → nature6.json#overlap_top_t_top_p",
+   "script": "python3 pipeline/v6nature.py",
+   "label": "generated"
+  },
+  "n6_overlap20": {
+   "v": 1,
+   "unit": "n",
+   "dp": 0,
+   "en": "Farms on both top-20 lists",
+   "fi": "Tilat molemmilla top 20 -listoilla",
+   "source": "python3 pipeline/v6nature.py → nature6.json#robust.overlap_top20",
+   "script": "python3 pipeline/v6nature.py",
+   "label": "generated"
+  },
+  "n6_half_t": {
+   "v": 24,
+   "unit": "n",
+   "dp": 0,
+   "en": "Fewest farms holding half of contract-farm CO₂e",
+   "fi": "Pienin tilamäärä, jolla on puolet sopimustilojen CO₂e:stä",
+   "source": "python3 pipeline/v6nature.py → nature6.json#robust.half_t_farms",
+   "script": "python3 pipeline/v6nature.py",
+   "label": "generated"
+  },
+  "n6_half_p": {
+   "v": 80,
+   "unit": "n",
+   "dp": 0,
+   "en": "Fewest farms delivering half of contract phosphorus to water",
+   "fi": "Pienin tilamäärä, joka päästää puolet sopimusfosforista vesiin",
+   "source": "python3 pipeline/v6nature.py → nature6.json#robust.half_p_farms",
+   "script": "python3 pipeline/v6nature.py",
+   "label": "generated"
+  },
+  "n6_half_overlap": {
+   "v": 1,
+   "unit": "n",
+   "dp": 0,
+   "en": "Farms in both half-sets",
+   "fi": "Tilat kummassakin puolikasjoukossa",
+   "source": "python3 pipeline/v6nature.py → nature6.json#robust.half_overlap",
+   "script": "python3 pipeline/v6nature.py",
+   "label": "generated"
+  },
+  "n6_farms": {
+   "v": 356,
+   "unit": "n",
+   "dp": 0,
+   "en": "Finnish contract farms with 2025 parcels",
+   "fi": "Suomalaiset sopimustilat, joilla lohkoja 2025",
+   "source": "python3 pipeline/v6nature.py → nature6.json#farms",
+   "script": "python3 pipeline/v6nature.py",
+   "label": "generated"
+  },
+  "n6_p_kg": {
+   "v": 4272.0,
+   "unit": "n",
+   "dp": 0,
+   "en": "Contract phosphorus to water 2025, kg (model A)",
+   "fi": "Sopimuspeltojen fosfori vesiin 2025, kg (malli A)",
+   "source": "python3 pipeline/v6nature.py → nature6.json#p_kg",
+   "script": "python3 pipeline/v6nature.py",
+   "label": "generated"
+  },
+  "n6_idx_lo": {
+   "v": 0.733,
+   "unit": "x",
+   "dp": 2,
+   "en": "Lowest catchment index: phosphorus per tonne against the same crops",
+   "fi": "Pienin valuma-alueindeksi: fosfori tonnia kohden samoihin kasveihin nähden",
+   "source": "python3 pipeline/v6nature.py → nature6.json#idx_spread[0]",
+   "script": "python3 pipeline/v6nature.py",
+   "label": "generated"
+  },
+  "n6_idx_hi": {
+   "v": 1.655,
+   "unit": "x",
+   "dp": 2,
+   "en": "Highest catchment index: phosphorus per tonne against the same crops",
+   "fi": "Suurin valuma-alueindeksi: fosfori tonnia kohden samoihin kasveihin nähden",
+   "source": "python3 pipeline/v6nature.py → nature6.json#idx_spread[1]",
+   "script": "python3 pipeline/v6nature.py",
+   "label": "generated"
+  },
+  "n6_n_catch": {
+   "v": 26,
+   "unit": "n",
+   "dp": 0,
+   "en": "Catchments ranked (at least 3 delivering farms)",
+   "fi": "Järjestetyt valuma-alueet (vähintään 3 toimittavaa tilaa)",
+   "source": "python3 pipeline/v6nature.py → nature6.json#n_catch",
+   "script": "python3 pipeline/v6nature.py",
+   "label": "generated"
+  },
+  "n6_min_farms": {
+   "v": 3,
+   "unit": "n",
+   "dp": 0,
+   "en": "Minimum delivering farms for a catchment to be ranked",
+   "fi": "Järjestettävän valuma-alueen toimittavien tilojen vähimmäismäärä",
+   "source": "python3 pipeline/v6nature.py → nature6.json#min_farms",
+   "script": "python3 pipeline/v6nature.py",
+   "label": "generated"
+  },
+  "n6_ca12_p": {
+   "v": 392.0,
+   "unit": "n",
+   "dp": 0,
+   "en": "CA12: contract phosphorus to water 2025, kg (model A)",
+   "fi": "CA12: sopimuspeltojen fosfori vesiin 2025, kg (malli A)",
+   "source": "python3 pipeline/v6nature.py → nature6.json#ca12.p_kg",
+   "script": "python3 pipeline/v6nature.py",
+   "label": "generated"
+  },
+  "n6_ca12_idx": {
+   "v": 1.179,
+   "unit": "x",
+   "dp": 2,
+   "en": "CA12: phosphorus per tonne against the same crops",
+   "fi": "CA12: fosfori tonnia kohden samoihin kasveihin nähden",
+   "source": "python3 pipeline/v6nature.py → nature6.json#ca12.idx",
+   "script": "python3 pipeline/v6nature.py",
+   "label": "generated"
+  },
+  "n6_ca12_rank_idx": {
+   "v": 8,
+   "unit": "n",
+   "dp": 0,
+   "en": "CA12: rank on phosphorus per tonne",
+   "fi": "CA12: sija fosforissa tonnia kohden",
+   "source": "python3 pipeline/v6nature.py → nature6.json#ca12.rank_idx",
+   "script": "python3 pipeline/v6nature.py",
+   "label": "generated"
+  },
+  "n6_c_CA23": {
+   "v": 1.655,
+   "unit": "x",
+   "dp": 2,
+   "en": "CA23: phosphorus to water per tonne harvested against the same crops (1.0 = typical); 251.9 kg P, 433.1 t harvested, 13 farms, moderate river",
+   "fi": "CA23: vesiin päätyvä fosfori korjattua tonnia kohden samoihin kasveihin nähden (1,0 = tyypillinen); 251.9 kg P, 433.1 t, 13 tilaa",
+   "source": "python3 pipeline/v6nature.py → nature6.json#catchments[CA23].idx",
+   "script": "python3 pipeline/v6nature.py",
+   "label": "generated"
+  },
+  "n6_c_CA13": {
+   "v": 1.473,
+   "unit": "x",
+   "dp": 2,
+   "en": "CA13: phosphorus to water per tonne harvested against the same crops (1.0 = typical); 140.0 kg P, 270.6 t harvested, 10 farms, moderate river",
+   "fi": "CA13: vesiin päätyvä fosfori korjattua tonnia kohden samoihin kasveihin nähden (1,0 = tyypillinen); 140.0 kg P, 270.6 t, 10 tilaa",
+   "source": "python3 pipeline/v6nature.py → nature6.json#catchments[CA13].idx",
+   "script": "python3 pipeline/v6nature.py",
+   "label": "generated"
+  },
+  "n6_c_CA14": {
+   "v": 1.358,
+   "unit": "x",
+   "dp": 2,
+   "en": "CA14: phosphorus to water per tonne harvested against the same crops (1.0 = typical); 348.5 kg P, 3621.5 t harvested, 25 farms, moderate river",
+   "fi": "CA14: vesiin päätyvä fosfori korjattua tonnia kohden samoihin kasveihin nähden (1,0 = tyypillinen); 348.5 kg P, 3621.5 t, 25 tilaa",
+   "source": "python3 pipeline/v6nature.py → nature6.json#catchments[CA14].idx",
+   "script": "python3 pipeline/v6nature.py",
+   "label": "generated"
+  },
+  "n6_c_CA10": {
+   "v": 1.32,
+   "unit": "x",
+   "dp": 2,
+   "en": "CA10: phosphorus to water per tonne harvested against the same crops (1.0 = typical); 122.6 kg P, 264.5 t harvested, 17 farms, good river",
+   "fi": "CA10: vesiin päätyvä fosfori korjattua tonnia kohden samoihin kasveihin nähden (1,0 = tyypillinen); 122.6 kg P, 264.5 t, 17 tilaa",
+   "source": "python3 pipeline/v6nature.py → nature6.json#catchments[CA10].idx",
+   "script": "python3 pipeline/v6nature.py",
+   "label": "generated"
+  },
+  "n6_c_CA26": {
+   "v": 1.315,
+   "unit": "x",
+   "dp": 2,
+   "en": "CA26: phosphorus to water per tonne harvested against the same crops (1.0 = typical); 75.9 kg P, 164.2 t harvested, 9 farms, moderate river",
+   "fi": "CA26: vesiin päätyvä fosfori korjattua tonnia kohden samoihin kasveihin nähden (1,0 = tyypillinen); 75.9 kg P, 164.2 t, 9 tilaa",
+   "source": "python3 pipeline/v6nature.py → nature6.json#catchments[CA26].idx",
+   "script": "python3 pipeline/v6nature.py",
+   "label": "generated"
+  },
+  "n6_c_CA24": {
+   "v": 1.28,
+   "unit": "x",
+   "dp": 2,
+   "en": "CA24: phosphorus to water per tonne harvested against the same crops (1.0 = typical); 371.4 kg P, 3868.5 t harvested, 35 farms, good river",
+   "fi": "CA24: vesiin päätyvä fosfori korjattua tonnia kohden samoihin kasveihin nähden (1,0 = tyypillinen); 371.4 kg P, 3868.5 t, 35 tilaa",
+   "source": "python3 pipeline/v6nature.py → nature6.json#catchments[CA24].idx",
+   "script": "python3 pipeline/v6nature.py",
+   "label": "generated"
+  },
+  "n6_c_CA27": {
+   "v": 1.259,
+   "unit": "x",
+   "dp": 2,
+   "en": "CA27: phosphorus to water per tonne harvested against the same crops (1.0 = typical); 77.5 kg P, 175.2 t harvested, 8 farms, poor river",
+   "fi": "CA27: vesiin päätyvä fosfori korjattua tonnia kohden samoihin kasveihin nähden (1,0 = tyypillinen); 77.5 kg P, 175.2 t, 8 tilaa",
+   "source": "python3 pipeline/v6nature.py → nature6.json#catchments[CA27].idx",
+   "script": "python3 pipeline/v6nature.py",
+   "label": "generated"
+  },
+  "n6_c_CA12": {
+   "v": 1.179,
+   "unit": "x",
+   "dp": 2,
+   "en": "CA12: phosphorus to water per tonne harvested against the same crops (1.0 = typical); 392.0 kg P, 5375.3 t harvested, 36 farms, poor river",
+   "fi": "CA12: vesiin päätyvä fosfori korjattua tonnia kohden samoihin kasveihin nähden (1,0 = tyypillinen); 392.0 kg P, 5375.3 t, 36 tilaa",
+   "source": "python3 pipeline/v6nature.py → nature6.json#catchments[CA12].idx",
+   "script": "python3 pipeline/v6nature.py",
+   "label": "generated"
+  },
+  "n6_c_CA21": {
+   "v": 1.155,
+   "unit": "x",
+   "dp": 2,
+   "en": "CA21: phosphorus to water per tonne harvested against the same crops (1.0 = typical); 255.7 kg P, 630.1 t harvested, 25 farms, good river",
+   "fi": "CA21: vesiin päätyvä fosfori korjattua tonnia kohden samoihin kasveihin nähden (1,0 = tyypillinen); 255.7 kg P, 630.1 t, 25 tilaa",
+   "source": "python3 pipeline/v6nature.py → nature6.json#catchments[CA21].idx",
+   "script": "python3 pipeline/v6nature.py",
+   "label": "generated"
+  },
+  "n6_c_CA02": {
+   "v": 1.15,
+   "unit": "x",
+   "dp": 2,
+   "en": "CA02: phosphorus to water per tonne harvested against the same crops (1.0 = typical); 58.5 kg P, 598.8 t harvested, 11 farms, poor lake",
+   "fi": "CA02: vesiin päätyvä fosfori korjattua tonnia kohden samoihin kasveihin nähden (1,0 = tyypillinen); 58.5 kg P, 598.8 t, 11 tilaa",
+   "source": "python3 pipeline/v6nature.py → nature6.json#catchments[CA02].idx",
+   "script": "python3 pipeline/v6nature.py",
+   "label": "generated"
+  },
+  "n6_c_CA09": {
+   "v": 1.14,
+   "unit": "x",
+   "dp": 2,
+   "en": "CA09: phosphorus to water per tonne harvested against the same crops (1.0 = typical); 58.0 kg P, 1343.8 t harvested, 6 farms, moderate river",
+   "fi": "CA09: vesiin päätyvä fosfori korjattua tonnia kohden samoihin kasveihin nähden (1,0 = tyypillinen); 58.0 kg P, 1343.8 t, 6 tilaa",
+   "source": "python3 pipeline/v6nature.py → nature6.json#catchments[CA09].idx",
+   "script": "python3 pipeline/v6nature.py",
+   "label": "generated"
+  },
+  "n6_c_CA06": {
+   "v": 1.139,
+   "unit": "x",
+   "dp": 2,
+   "en": "CA06: phosphorus to water per tonne harvested against the same crops (1.0 = typical); 246.7 kg P, 3656.4 t harvested, 25 farms, poor lake",
+   "fi": "CA06: vesiin päätyvä fosfori korjattua tonnia kohden samoihin kasveihin nähden (1,0 = tyypillinen); 246.7 kg P, 3656.4 t, 25 tilaa",
+   "source": "python3 pipeline/v6nature.py → nature6.json#catchments[CA06].idx",
+   "script": "python3 pipeline/v6nature.py",
+   "label": "generated"
+  },
+  "n6_c_CA11": {
+   "v": 1.104,
+   "unit": "x",
+   "dp": 2,
+   "en": "CA11: phosphorus to water per tonne harvested against the same crops (1.0 = typical); 168.3 kg P, 4702.0 t harvested, 15 farms, moderate river",
+   "fi": "CA11: vesiin päätyvä fosfori korjattua tonnia kohden samoihin kasveihin nähden (1,0 = tyypillinen); 168.3 kg P, 4702.0 t, 15 tilaa",
+   "source": "python3 pipeline/v6nature.py → nature6.json#catchments[CA11].idx",
+   "script": "python3 pipeline/v6nature.py",
+   "label": "generated"
+  },
+  "n6_c_CA18": {
+   "v": 1.099,
+   "unit": "x",
+   "dp": 2,
+   "en": "CA18: phosphorus to water per tonne harvested against the same crops (1.0 = typical); 153.4 kg P, 1878.6 t harvested, 15 farms, bad lake",
+   "fi": "CA18: vesiin päätyvä fosfori korjattua tonnia kohden samoihin kasveihin nähden (1,0 = tyypillinen); 153.4 kg P, 1878.6 t, 15 tilaa",
+   "source": "python3 pipeline/v6nature.py → nature6.json#catchments[CA18].idx",
+   "script": "python3 pipeline/v6nature.py",
+   "label": "generated"
+  },
+  "n6_c_CA03": {
+   "v": 1.023,
+   "unit": "x",
+   "dp": 2,
+   "en": "CA03: phosphorus to water per tonne harvested against the same crops (1.0 = typical); 243.3 kg P, 676.7 t harvested, 24 farms, poor lake",
+   "fi": "CA03: vesiin päätyvä fosfori korjattua tonnia kohden samoihin kasveihin nähden (1,0 = tyypillinen); 243.3 kg P, 676.7 t, 24 tilaa",
+   "source": "python3 pipeline/v6nature.py → nature6.json#catchments[CA03].idx",
+   "script": "python3 pipeline/v6nature.py",
+   "label": "generated"
+  },
+  "n6_c_CA08": {
+   "v": 1.0,
+   "unit": "x",
+   "dp": 2,
+   "en": "CA08: phosphorus to water per tonne harvested against the same crops (1.0 = typical); 138.1 kg P, 920.9 t harvested, 18 farms, poor lake",
+   "fi": "CA08: vesiin päätyvä fosfori korjattua tonnia kohden samoihin kasveihin nähden (1,0 = tyypillinen); 138.1 kg P, 920.9 t, 18 tilaa",
+   "source": "python3 pipeline/v6nature.py → nature6.json#catchments[CA08].idx",
+   "script": "python3 pipeline/v6nature.py",
+   "label": "generated"
+  },
+  "n6_c_CA16": {
+   "v": 0.998,
+   "unit": "x",
+   "dp": 2,
+   "en": "CA16: phosphorus to water per tonne harvested against the same crops (1.0 = typical); 105.5 kg P, 300.7 t harvested, 13 farms, poor lake",
+   "fi": "CA16: vesiin päätyvä fosfori korjattua tonnia kohden samoihin kasveihin nähden (1,0 = tyypillinen); 105.5 kg P, 300.7 t, 13 tilaa",
+   "source": "python3 pipeline/v6nature.py → nature6.json#catchments[CA16].idx",
+   "script": "python3 pipeline/v6nature.py",
+   "label": "generated"
+  },
+  "n6_c_CA15": {
+   "v": 0.97,
+   "unit": "x",
+   "dp": 2,
+   "en": "CA15: phosphorus to water per tonne harvested against the same crops (1.0 = typical); 91.2 kg P, 1130.3 t harvested, 11 farms, poor lake",
+   "fi": "CA15: vesiin päätyvä fosfori korjattua tonnia kohden samoihin kasveihin nähden (1,0 = tyypillinen); 91.2 kg P, 1130.3 t, 11 tilaa",
+   "source": "python3 pipeline/v6nature.py → nature6.json#catchments[CA15].idx",
+   "script": "python3 pipeline/v6nature.py",
+   "label": "generated"
+  },
+  "n6_c_CA28": {
+   "v": 0.907,
+   "unit": "x",
+   "dp": 2,
+   "en": "CA28: phosphorus to water per tonne harvested against the same crops (1.0 = typical); 177.8 kg P, 3463.1 t harvested, 25 farms, moderate lake",
+   "fi": "CA28: vesiin päätyvä fosfori korjattua tonnia kohden samoihin kasveihin nähden (1,0 = tyypillinen); 177.8 kg P, 3463.1 t, 25 tilaa",
+   "source": "python3 pipeline/v6nature.py → nature6.json#catchments[CA28].idx",
+   "script": "python3 pipeline/v6nature.py",
+   "label": "generated"
+  },
+  "n6_c_CA19": {
+   "v": 0.903,
+   "unit": "x",
+   "dp": 2,
+   "en": "CA19: phosphorus to water per tonne harvested against the same crops (1.0 = typical); 15.6 kg P, 49.2 t harvested, 4 farms, good river",
+   "fi": "CA19: vesiin päätyvä fosfori korjattua tonnia kohden samoihin kasveihin nähden (1,0 = tyypillinen); 15.6 kg P, 49.2 t, 4 tilaa",
+   "source": "python3 pipeline/v6nature.py → nature6.json#catchments[CA19].idx",
+   "script": "python3 pipeline/v6nature.py",
+   "label": "generated"
+  },
+  "n6_c_CA25": {
+   "v": 0.85,
+   "unit": "x",
+   "dp": 2,
+   "en": "CA25: phosphorus to water per tonne harvested against the same crops (1.0 = typical); 121.8 kg P, 429.0 t harvested, 19 farms, poor lake",
+   "fi": "CA25: vesiin päätyvä fosfori korjattua tonnia kohden samoihin kasveihin nähden (1,0 = tyypillinen); 121.8 kg P, 429.0 t, 19 tilaa",
+   "source": "python3 pipeline/v6nature.py → nature6.json#catchments[CA25].idx",
+   "script": "python3 pipeline/v6nature.py",
+   "label": "generated"
+  },
+  "n6_c_CA17": {
+   "v": 0.825,
+   "unit": "x",
+   "dp": 2,
+   "en": "CA17: phosphorus to water per tonne harvested against the same crops (1.0 = typical); 113.5 kg P, 1296.9 t harvested, 17 farms, poor lake",
+   "fi": "CA17: vesiin päätyvä fosfori korjattua tonnia kohden samoihin kasveihin nähden (1,0 = tyypillinen); 113.5 kg P, 1296.9 t, 17 tilaa",
+   "source": "python3 pipeline/v6nature.py → nature6.json#catchments[CA17].idx",
+   "script": "python3 pipeline/v6nature.py",
+   "label": "generated"
+  },
+  "n6_c_CA01": {
+   "v": 0.823,
+   "unit": "x",
+   "dp": 2,
+   "en": "CA01: phosphorus to water per tonne harvested against the same crops (1.0 = typical); 249.1 kg P, 7161.5 t harvested, 33 farms, good lake",
+   "fi": "CA01: vesiin päätyvä fosfori korjattua tonnia kohden samoihin kasveihin nähden (1,0 = tyypillinen); 249.1 kg P, 7161.5 t, 33 tilaa",
+   "source": "python3 pipeline/v6nature.py → nature6.json#catchments[CA01].idx",
+   "script": "python3 pipeline/v6nature.py",
+   "label": "generated"
+  },
+  "n6_c_CA07": {
+   "v": 0.803,
+   "unit": "x",
+   "dp": 2,
+   "en": "CA07: phosphorus to water per tonne harvested against the same crops (1.0 = typical); 220.8 kg P, 1228.2 t harvested, 22 farms, poor lake",
+   "fi": "CA07: vesiin päätyvä fosfori korjattua tonnia kohden samoihin kasveihin nähden (1,0 = tyypillinen); 220.8 kg P, 1228.2 t, 22 tilaa",
+   "source": "python3 pipeline/v6nature.py → nature6.json#catchments[CA07].idx",
+   "script": "python3 pipeline/v6nature.py",
+   "label": "generated"
+  },
+  "n6_c_CA22": {
+   "v": 0.736,
+   "unit": "x",
+   "dp": 2,
+   "en": "CA22: phosphorus to water per tonne harvested against the same crops (1.0 = typical); 44.1 kg P, 170.4 t harvested, 5 farms, good lake",
+   "fi": "CA22: vesiin päätyvä fosfori korjattua tonnia kohden samoihin kasveihin nähden (1,0 = tyypillinen); 44.1 kg P, 170.4 t, 5 tilaa",
+   "source": "python3 pipeline/v6nature.py → nature6.json#catchments[CA22].idx",
+   "script": "python3 pipeline/v6nature.py",
+   "label": "generated"
+  },
+  "n6_c_CA20": {
+   "v": 0.733,
+   "unit": "x",
+   "dp": 2,
+   "en": "CA20: phosphorus to water per tonne harvested against the same crops (1.0 = typical); 21.1 kg P, 174.7 t harvested, 5 farms, poor coastal",
+   "fi": "CA20: vesiin päätyvä fosfori korjattua tonnia kohden samoihin kasveihin nähden (1,0 = tyypillinen); 21.1 kg P, 174.7 t, 5 tilaa",
+   "source": "python3 pipeline/v6nature.py → nature6.json#catchments[CA20].idx",
+   "script": "python3 pipeline/v6nature.py",
+   "label": "generated"
+  },
+  "n6_ask_n": {
+   "v": 7,
+   "unit": "n",
+   "dp": 0,
+   "en": "Framework answers in the bank",
+   "fi": "Viitekehysvastauksia pankissa",
+   "source": "python3 pipeline/v6ask.py → ask6.json#n",
+   "script": "python3 pipeline/v6ask.py",
+   "label": "generated"
+  },
+  "n6_ask_quotes": {
+   "v": 23,
+   "unit": "n",
+   "dp": 0,
+   "en": "Quoted passages, each found word for word in its file",
+   "fi": "Lainatut kohdat, kukin löydetty sanasta sanaan tiedostostaan",
+   "source": "python3 pipeline/v6ask.py → ask6.json#n_quotes",
+   "script": "python3 pipeline/v6ask.py",
+   "label": "generated"
+  }
+ },
+ "synthetic_only": true,
+ "script": "python3 stages/pj-v8/build.py"
+}

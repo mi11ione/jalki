@@ -1,0 +1,531 @@
+{
+ "synthetic_only": true,
+ "script": "python3 stages/pj-v8/v6ask.py",
+ "n": 7,
+ "n_quotes": 23,
+ "check": "every quote found word for word in its cited file; every section label found; every source document in the registry or named in the digest",
+ "bank": [
+  {
+   "id": "A1",
+   "dec": [
+    "S"
+   ],
+   "e_ref": [
+    "E39"
+   ],
+   "q": [
+    "Does a lower supplier footprint (PCF) count as a reduction?",
+    "Lasketaanko toimittajan pienempi jalanjälki (PCF) vähennykseksi?"
+   ],
+   "a": [
+    "Not by itself. A new or revised PCF changes the data, not the field. The GHG Protocol handles methodology and data changes through base-year recalculation once they pass a significance threshold, not as abatement, and the pack's lever catalogue labels the move to supplier-specific data a measurement improvement, not abatement. Count a cut only when field activity changes (nitrogen rate, yield, area) against a like-for-like baseline; re-run a revised PCF on the frozen base and report it on its own line.",
+    "Ei sellaisenaan. Uusi tai korjattu PCF muuttaa tietoa, ei peltoa. GHG Protocol käsittelee menetelmä- ja tietomuutokset perusvuoden uudelleenlaskentana, kun ne ylittävät merkittävyysrajan, ei vähennyksinä, ja paketin keinoluettelo kutsuu siirtymää toimittajakohtaiseen dataan mittaamisen parantamiseksi, ei vähennykseksi. Laske vähennys vain, kun peltotoiminta muuttuu (typpimäärä, sato, ala) vertailukelpoiseen lähtötasoon nähden; aja korjattu PCF lukittuun perusvuoteen ja raportoi se omalla rivillään."
+   ],
+   "kw": [
+    "pcf",
+    "footprint",
+    "supplier",
+    "reduction",
+    "lower",
+    "revised",
+    "jalanjälki",
+    "toimittaja",
+    "vähennys",
+    "pienempi"
+   ],
+   "cites": [
+    {
+     "file": "twin/data/data/07_frameworks/framework_digest.md",
+     "section": "Accounting: GHG Protocol",
+     "quote": "Base-year recalculation after structural changes (acquisitions, divestments) and methodology changes above a significance threshold.",
+     "show": [
+      "Framework digest (pack, status 3 Nov 2026)",
+      "Viitekehystiivistelmä (paketti, tilanne 3.11.2026)"
+     ],
+     "path": "data/07_frameworks/framework_digest.md"
+    },
+    {
+     "file": "twin/data/data/05_scenarios/decarbonisation_levers.csv",
+     "section": "L27",
+     "quote": "Spend-based to supplier-specific data (measurement improvement, not abatement)",
+     "show": [
+      "Lever catalogue (pack)",
+      "Keinoluettelo (paketti)"
+     ],
+     "path": "data/05_scenarios/decarbonisation_levers.csv"
+    },
+    {
+     "file": "twin/data/data/05_scenarios/decarbonisation_levers.csv",
+     "section": "L27",
+     "quote": "reported change is not a real reduction",
+     "show": [
+      "Lever catalogue (pack)",
+      "Keinoluettelo (paketti)"
+     ],
+     "path": "data/05_scenarios/decarbonisation_levers.csv"
+    }
+   ],
+   "docs": [
+    {
+     "name": "GHG Protocol Corporate Standard / Scope 3 Standard",
+     "url": null,
+     "in_registry": false
+    }
+   ],
+   "where": "gate"
+  },
+  {
+   "id": "A2",
+   "dec": [
+    "M"
+   ],
+   "e_ref": [
+    "E32"
+   ],
+   "q": [
+    "When must the base year be recalculated?",
+    "Milloin perusvuosi on laskettava uudelleen?"
+   ],
+   "a": [
+    "After a structural change (an acquisition or a divestment) or a methodology change that passes the significance threshold. Apetit's briefing puts that threshold at {k:meter.line}. In the pack it is already triggered once: Foodhills was acquired on 27 November 2025, and the pack's methodology names that acquisition as a reason to recalculate. The peat method is a methodology change, so The base measures it against the same line. For a new base year, SBTi V2 prefers the most recent year with comprehensive data.",
+    "Rakennemuutoksen (yritysosto tai -myynti) tai merkittävyysrajan ylittävän menetelmämuutoksen jälkeen. Apetitin briefingissä raja on {k:meter.line}. Paketissa se on jo lauennut kerran: Foodhills ostettiin 27.11.2025, ja paketin menetelmäkuvaus nimeää oston syyksi laskea uudelleen. Turvemenetelmä on menetelmämuutos, joten Perusvuosi-osio mittaa sen samaa rajaa vasten. Uudeksi perusvuodeksi SBTi V2 suosii viimeisintä vuotta, jolta on kattavat tiedot."
+   ],
+   "kw": [
+    "base",
+    "year",
+    "recalculat",
+    "restat",
+    "threshold",
+    "acquisition",
+    "divest",
+    "perusvuo",
+    "uudelleen",
+    "raja",
+    "yritysost"
+   ],
+   "cites": [
+    {
+     "file": "twin/data/data/07_frameworks/framework_digest.md",
+     "section": "Accounting: GHG Protocol",
+     "quote": "Base-year recalculation after structural changes (acquisitions, divestments) and methodology changes above a significance threshold.",
+     "show": [
+      "Framework digest (pack, status 3 Nov 2026)",
+      "Viitekehystiivistelmä (paketti, tilanne 3.11.2026)"
+     ],
+     "path": "data/07_frameworks/framework_digest.md"
+    },
+    {
+     "file": "twin/data/docs/METHODOLOGY.md",
+     "section": "1. Organisational boundary and structural changes",
+     "quote": "Because of the acquisition, a base-year recalculation is needed.",
+     "show": [
+      "Pack methodology",
+      "Paketin menetelmäkuvaus"
+     ],
+     "path": "docs/METHODOLOGY.md"
+    },
+    {
+     "file": "twin/data/data/07_frameworks/framework_digest.md",
+     "section": "Climate targets: SBTi",
+     "quote": "V2 prefers the most recent year with comprehensive data as base year",
+     "show": [
+      "Framework digest (pack, status 3 Nov 2026)",
+      "Viitekehystiivistelmä (paketti, tilanne 3.11.2026)"
+     ],
+     "path": "data/07_frameworks/framework_digest.md"
+    },
+    {
+     "file": "run/brief.md",
+     "section": "Base year recalculations",
+     "quote": "Apetit must recalculate its base year (such as a 2025 baseline) under science-based target rules.",
+     "show": [
+      "Apetit challenge briefing, 6 Nov 2026 (team notes)",
+      "Apetitin haastebriefing 6.11.2026 (tiimin muistiinpanot)"
+     ],
+     "path": "Apetit briefing notes"
+    }
+   ],
+   "docs": [
+    {
+     "name": "GHG Protocol Corporate Standard / Scope 3 Standard",
+     "url": null,
+     "in_registry": false
+    },
+    {
+     "name": "SBTi Corporate Net-Zero Standard V2.0",
+     "url": "https://files.sciencebasedtargets.org/production/files/Corporate-Net-Zero-Standard-version-2.pdf",
+     "in_registry": true
+    }
+   ],
+   "where": "gate"
+  },
+  {
+   "id": "A3",
+   "dec": [
+    "L"
+   ],
+   "e_ref": [
+    "E34"
+   ],
+   "q": [
+    "Does moving crops off peat count as a FLAG reduction?",
+    "Lasketaanko viljelyn siirto pois turpeelta FLAG-vähennykseksi?"
+   ],
+   "a": [
+    "Only where the land changes. Drained organic soils are FLAG emissions, so they leave our FLAG inventory when our contract crop leaves the parcel. But a drained parcel keeps emitting whoever farms it: under grass the pack's method still charges {k:v3.w_grass_t_ha} against {k:v3.w_crop_t_ha} under annual crops. The digest gives no rule that credits a contract move as a cut on the land, so Jälki counts it only on rewetted parcels (decision L) and labels rotation \"rotation, not reduction\".",
+    "Vain kun maa muuttuu. Ojitettujen eloperäisten maiden päästöt ovat FLAG-päästöjä, joten ne poistuvat FLAG-inventaariostamme, kun sopimuskasvimme lähtee lohkolta. Ojitettu lohko päästää kuitenkin edelleen, kuka sitä viljeleekin: nurmella paketin menetelmä laskee yhä {k:v3.w_grass_t_ha} vs. {k:v3.w_crop_t_ha} yksivuotisilla kasveilla. Tiivistelmässä ei ole sääntöä, joka hyvittäisi sopimuksen siirron maan vähennyksenä, joten Jälki laskee sen vain uudelleen soistetuilla lohkoilla (päätös L) ja merkitsee kierron \"kierto, ei vähennys\"."
+   ],
+   "kw": [
+    "peat",
+    "organic",
+    "drained",
+    "moving",
+    "move",
+    "crops",
+    "rotation",
+    "turve",
+    "turpeelta",
+    "siirto",
+    "ojitet",
+    "kierto"
+   ],
+   "cites": [
+    {
+     "file": "twin/data/data/07_frameworks/framework_digest.md",
+     "section": "Climate targets: SBTi",
+     "quote": "FLAG = land-based emissions and removals: on-farm N2O and CH4, drained organic soils, liming, land-use change, soil carbon.",
+     "show": [
+      "Framework digest (pack, status 3 Nov 2026)",
+      "Viitekehystiivistelmä (paketti, tilanne 3.11.2026)"
+     ],
+     "path": "data/07_frameworks/framework_digest.md"
+    },
+    {
+     "file": "twin/data/docs/METHODOLOGY.md",
+     "section": "5. Contract-farm footprint",
+     "quote": "29.0 t CO2/ha/yr for annual crops (20.9 for grass)",
+     "show": [
+      "Pack methodology",
+      "Paketin menetelmäkuvaus"
+     ],
+     "path": "docs/METHODOLOGY.md"
+    },
+    {
+     "file": "twin/data/data/05_scenarios/decarbonisation_levers.csv",
+     "section": "L11",
+     "quote": "Shift contract area away from drained organic (peat) soils",
+     "show": [
+      "Lever catalogue (pack)",
+      "Keinoluettelo (paketti)"
+     ],
+     "path": "data/05_scenarios/decarbonisation_levers.csv"
+    }
+   ],
+   "docs": [
+    {
+     "name": "SBTi FLAG",
+     "url": "https://sciencebasedtargets.org/sector-development/forest-land-and-agriculture/",
+     "in_registry": true
+    }
+   ],
+   "where": "gate"
+  },
+  {
+   "id": "A4",
+   "dec": [
+    "L"
+   ],
+   "e_ref": [
+    "E37"
+   ],
+   "q": [
+    "What counts as a removal?",
+    "Mikä lasketaan poistumaksi?"
+   ],
+   "a": [
+    "Under the GHG Protocol Land Sector and Removals Standard (v1.1, effective 1 January 2027), reporting removals is optional, and a removal must be monitored and traceable, with reversals accounted for. The pack models no removals (soil carbon from catch crops is listed as not modelled), so Jälki claims none. The L12 rewetting pilot is counted as lower emissions from drained soil, not as a removal.",
+    "GHG Protocolin maankäyttö- ja poistumastandardin (v1.1, voimaan 1.1.2027) mukaan poistumien raportointi on vapaaehtoista, ja poistuman on oltava seurattu ja jäljitettävä, ja sen palautuminen on otettava huomioon. Paketti ei mallinna poistumia (kerääjäkasvien maaperän hiili on mainittu mallintamattomana), joten Jälki ei väitä yhtään. L12-soistuspilotti lasketaan ojitetun maan pienempinä päästöinä, ei poistumana."
+   ],
+   "kw": [
+    "removal",
+    "removals",
+    "sequestr",
+    "carbon",
+    "rewet",
+    "catch",
+    "poistum",
+    "hiili",
+    "soist",
+    "lsr"
+   ],
+   "cites": [
+    {
+     "file": "twin/data/data/07_frameworks/framework_digest.md",
+     "section": "Land Sector and Removals Standard (LSR)",
+     "quote": "v1.0 January 2026, v1.1 June 2026, effective 1 January 2027.",
+     "show": [
+      "Framework digest (pack, status 3 Nov 2026)",
+      "Viitekehystiivistelmä (paketti, tilanne 3.11.2026)"
+     ],
+     "path": "data/07_frameworks/framework_digest.md"
+    },
+    {
+     "file": "twin/data/data/07_frameworks/framework_digest.md",
+     "section": "Land Sector and Removals Standard (LSR)",
+     "quote": "removals (optional to report; must be monitored, traceable and reversals accounted for)",
+     "show": [
+      "Framework digest (pack, status 3 Nov 2026)",
+      "Viitekehystiivistelmä (paketti, tilanne 3.11.2026)"
+     ],
+     "path": "data/07_frameworks/framework_digest.md"
+    },
+    {
+     "file": "twin/data/docs/ASSUMPTIONS_AND_LIMITATIONS.md",
+     "section": "Not modelled",
+     "quote": "removals (for example soil carbon from catch crops), which are optional under the GHG Protocol LSR Standard and require monitoring",
+     "show": [
+      "Pack assumptions and limitations",
+      "Paketin oletukset ja rajoitukset"
+     ],
+     "path": "docs/ASSUMPTIONS_AND_LIMITATIONS.md"
+    }
+   ],
+   "docs": [
+    {
+     "name": "GHG Protocol Land Sector and Removals Standard",
+     "url": "https://ghgprotocol.org/land-sector-and-removals-standard",
+     "in_registry": true
+    }
+   ],
+   "where": "gate"
+  },
+  {
+   "id": "A5",
+   "dec": [
+    "P"
+   ],
+   "e_ref": [],
+   "q": [
+    "Which SBTi standard sets our target year?",
+    "Mikä SBTi-standardi määrää tavoitevuotemme?"
+   ],
+   "a": [
+    "Apetit committed in December 2025 and has 24 months to submit. Version 1.3.1 stays usable until the end of 2027; V2.0 takes effect on 1 February 2027 and is mandatory for new and renewed targets from 31 January 2028. V2 asks for five-year near-term targets, which is why 2032 is the recommended target year; 2035 fits V1.3.1's window of 5 to 10 years from submission.",
+    "Apetit sitoutui joulukuussa 2025, ja sillä on 24 kuukautta aikaa jättää tavoitteet. Versio 1.3.1 on käytettävissä vuoden 2027 loppuun; V2.0 tulee voimaan 1.2.2027 ja on pakollinen uusille ja uusituille tavoitteille 31.1.2028 alkaen. V2 edellyttää viiden vuoden lähiajan tavoitteita, siksi suositeltu tavoitevuosi on 2032; 2035 mahtuu V1.3.1:n 5–10 vuoden ikkunaan jättämisestä."
+   ],
+   "kw": [
+    "sbti",
+    "version",
+    "standard",
+    "target",
+    "2032",
+    "2035",
+    "submit",
+    "tavoitevuo",
+    "versio",
+    "standardi"
+   ],
+   "cites": [
+    {
+     "file": "twin/data/data/07_frameworks/framework_digest.md",
+     "section": "Climate targets: SBTi",
+     "quote": "Committed in December 2025 to set near-term targets (24 months to submit).",
+     "show": [
+      "Framework digest (pack, status 3 Nov 2026)",
+      "Viitekehystiivistelmä (paketti, tilanne 3.11.2026)"
+     ],
+     "path": "data/07_frameworks/framework_digest.md"
+    },
+    {
+     "file": "twin/data/data/07_frameworks/framework_digest.md",
+     "section": "Climate targets: SBTi",
+     "quote": "V1.3.1 remains usable until end-2027; V2 is mandatory for new and renewed targets from 31 January 2028.",
+     "show": [
+      "Framework digest (pack, status 3 Nov 2026)",
+      "Viitekehystiivistelmä (paketti, tilanne 3.11.2026)"
+     ],
+     "path": "data/07_frameworks/framework_digest.md"
+    },
+    {
+     "file": "twin/data/data/07_frameworks/framework_digest.md",
+     "section": "Climate targets: SBTi",
+     "quote": "V2.0 published 11 June 2026, effective 1 February 2027.",
+     "show": [
+      "Framework digest (pack, status 3 Nov 2026)",
+      "Viitekehystiivistelmä (paketti, tilanne 3.11.2026)"
+     ],
+     "path": "data/07_frameworks/framework_digest.md"
+    },
+    {
+     "file": "twin/data/data/07_frameworks/framework_digest.md",
+     "section": "Climate targets: SBTi",
+     "quote": "Near-term targets cover 5-10 years from submission (V2: 5 years).",
+     "show": [
+      "Framework digest (pack, status 3 Nov 2026)",
+      "Viitekehystiivistelmä (paketti, tilanne 3.11.2026)"
+     ],
+     "path": "data/07_frameworks/framework_digest.md"
+    }
+   ],
+   "docs": [
+    {
+     "name": "SBTi Corporate Net-Zero Standard V2.0",
+     "url": "https://files.sciencebasedtargets.org/production/files/Corporate-Net-Zero-Standard-version-2.pdf",
+     "in_registry": true
+    },
+    {
+     "name": "SBTi CNZS V1.3.1 Method Appendix",
+     "url": "https://files.sciencebasedtargets.org/production/files/CNZS-V1.3.1-Method-Appendix.pdf",
+     "in_registry": true
+    }
+   ],
+   "where": "gate"
+  },
+  {
+   "id": "A6",
+   "dec": [
+    "P"
+   ],
+   "e_ref": [
+    "E30",
+    "E31"
+   ],
+   "q": [
+    "Do we need a separate FLAG target, and at what pace?",
+    "Tarvitsemmeko erillisen FLAG-tavoitteen, ja millä vauhdilla?"
+   ],
+   "a": [
+    "Yes. SBTi makes a FLAG target mandatory for food production and food and beverage processing companies, whatever their FLAG share, and it comes with a commitment to eliminate deforestation (cut-off no later than 2020). The minimum pace in the V1.3.1 method appendix is {k:rate.flag} a year for FLAG, next to {k:rate.s12} for Scope 1+2 and {k:rate.s3nf} for other Scope 3. That is why the three targets carry separate mandates.",
+    "Kyllä. SBTi edellyttää FLAG-tavoitetta elintarviketuotannon sekä elintarvike- ja juomateollisuuden yrityksiltä niiden FLAG-osuudesta riippumatta, ja siihen kuuluu sitoumus lopettaa metsäkato (raja-aika viimeistään 2020). V1.3.1:n menetelmäliitteen vähimmäisvauhti on FLAG:lle {k:rate.flag} vuodessa, Scope 1+2:lle {k:rate.s12} ja muulle Scope 3:lle {k:rate.s3nf}. Siksi kolmella tavoitteella on omat valtuutuksensa."
+   ],
+   "kw": [
+    "flag",
+    "separate",
+    "pace",
+    "rate",
+    "mandatory",
+    "deforest",
+    "erillinen",
+    "vauhti",
+    "metsäkato",
+    "pakollinen"
+   ],
+   "cites": [
+    {
+     "file": "twin/data/data/07_frameworks/framework_digest.md",
+     "section": "Climate targets: SBTi",
+     "quote": "Mandatory for food production and food & beverage processing companies, and for any company whose FLAG emissions exceed 20 % of the total.",
+     "show": [
+      "Framework digest (pack, status 3 Nov 2026)",
+      "Viitekehystiivistelmä (paketti, tilanne 3.11.2026)"
+     ],
+     "path": "data/07_frameworks/framework_digest.md"
+    },
+    {
+     "file": "twin/data/data/07_frameworks/framework_digest.md",
+     "section": "Climate targets: SBTi",
+     "quote": "Requires a commitment to eliminate deforestation, with a cut-off date no later than 2020",
+     "show": [
+      "Framework digest (pack, status 3 Nov 2026)",
+      "Viitekehystiivistelmä (paketti, tilanne 3.11.2026)"
+     ],
+     "path": "data/07_frameworks/framework_digest.md"
+    },
+    {
+     "file": "twin/data/data/07_frameworks/framework_digest.md",
+     "section": "Minimum ambition (V1.3.1 method appendix)",
+     "quote": "Scope 1+2: 4.2 %/yr linear (1.5 C). Scope 3: 2.5 %/yr (well-below 2 C). FLAG: 3.03 %/yr.",
+     "show": [
+      "Framework digest (pack, status 3 Nov 2026)",
+      "Viitekehystiivistelmä (paketti, tilanne 3.11.2026)"
+     ],
+     "path": "data/07_frameworks/framework_digest.md"
+    }
+   ],
+   "docs": [
+    {
+     "name": "SBTi FLAG",
+     "url": "https://sciencebasedtargets.org/sector-development/forest-land-and-agriculture/",
+     "in_registry": true
+    },
+    {
+     "name": "SBTi CNZS V1.3.1 Method Appendix",
+     "url": "https://files.sciencebasedtargets.org/production/files/CNZS-V1.3.1-Method-Appendix.pdf",
+     "in_registry": true
+    }
+   ],
+   "where": "gate"
+  },
+  {
+   "id": "A7",
+   "dec": [],
+   "where": "nature",
+   "e_ref": [
+    "E38"
+   ],
+   "q": [
+    "Which SBTN step ranks our catchments, and on what?",
+    "Mikä SBTN-vaihe asettaa valuma-alueemme järjestykseen, ja millä perusteella?"
+   ],
+   "a": [
+    "Step 2, interpret and prioritise: pressure times the state of nature. For freshwater quality, SBTN targets the limiting nutrient at sub-basin level, often phosphorus in Finnish lakes. This fold ranks catchments on phosphorus reaching water per tonne harvested and shows each catchment's ecological status beside it. Setting a target is step 3.",
+    "Vaihe 2, tulkinta ja priorisointi: paine kertaa luonnon tila. Vedenlaadussa SBTN kohdistaa tavoitteet rajoittavaan ravinteeseen osavaluma-aluetasolla, Suomen järvissä usein fosforiin. Tämä osio järjestää valuma-alueet vesiin päätyvän fosforin mukaan korjattua tonnia kohden ja näyttää kunkin ekologisen tilan rinnalla. Tavoitteen asettaminen on vaihe 3."
+   ],
+   "kw": [
+    "sbtn",
+    "catchment",
+    "nature",
+    "phosphorus",
+    "lake",
+    "eutroph",
+    "water",
+    "nutrient",
+    "valuma",
+    "fosfor",
+    "järv",
+    "rehevöi",
+    "luonto",
+    "ravin"
+   ],
+   "cites": [
+    {
+     "file": "twin/data/data/07_frameworks/framework_digest.md",
+     "section": "Nature: SBTN, TNFD, ESRS",
+     "quote": "2 interpret & prioritise (pressure x state of nature)",
+     "show": [
+      "Framework digest (pack, status 3 Nov 2026)",
+      "Viitekehystiivistelmä (paketti, tilanne 3.11.2026)"
+     ],
+     "path": "data/07_frameworks/framework_digest.md"
+    },
+    {
+     "file": "twin/data/data/07_frameworks/framework_digest.md",
+     "section": "Freshwater quality",
+     "quote": "Nutrient targets focus on the limiting nutrient (often phosphorus in Finnish lakes) at sub-basin level",
+     "show": [
+      "Framework digest (pack, status 3 Nov 2026)",
+      "Viitekehystiivistelmä (paketti, tilanne 3.11.2026)"
+     ],
+     "path": "data/07_frameworks/framework_digest.md"
+    },
+    {
+     "file": "twin/data/docs/NATURE_SBTN.md",
+     "section": "Mapping to SBTN steps",
+     "quote": "Freshwater quality: the limiting nutrient in Finnish lakes is often phosphorus.",
+     "show": [
+      "Pack nature and SBTN note",
+      "Paketin luonto- ja SBTN-kuvaus"
+     ],
+     "path": "docs/NATURE_SBTN.md"
+    }
+   ],
+   "docs": [
+    {
+     "name": "SBTN Step 2 technical guidance v1.1",
+     "url": "https://sciencebasedtargetsnetwork.org/wp-content/uploads/2024/07/Technical-Guidance-2024-Step2-Prioritize-v1-1.pdf",
+     "in_registry": true
+    }
+   ]
+  }
+ ]
+}

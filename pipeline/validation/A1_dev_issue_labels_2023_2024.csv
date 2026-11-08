@@ -1,0 +1,202 @@
+issue_id,table,record_key,issue_type,year,field,true_value,observed_value,note
+I00091,erp_purchase_lines,erp:4500002962:10,unit_error,2023,quantity,39615.995,39.616,tonnes keyed with uom KG
+I00092,erp_purchase_lines,erp:4500004023:10,unit_error,2023,quantity,3399.8,3.3998,tonnes keyed with uom KG
+I00093,erp_purchase_lines,erp:4500004053:10,unit_error,2023,quantity,3776.1,3.7761,tonnes keyed with uom KG
+I00094,erp_purchase_lines,erp:4500003994:10,unit_error,2023,quantity,7593.4,7.5934,tonnes keyed with uom KG
+I00095,erp_purchase_lines,erp:4500002920:10,unit_error,2023,quantity,21342.705,21.3427,tonnes keyed with uom KG
+I00096,erp_purchase_lines,erp:4500003327:10,unit_error,2023,quantity,24435.0,24.435,tonnes keyed with uom KG
+I00097,erp_purchase_lines,erp:4500004035:10,unit_error,2023,quantity,4378.5,4.3785,tonnes keyed with uom KG
+I00098,erp_purchase_lines,erp:4500003314:10,unit_error,2023,quantity,46287.0,46.287,tonnes keyed with uom KG
+I00099,erp_purchase_lines,erp:4500003946:10,unit_error,2023,quantity,12419.9,12.4199,tonnes keyed with uom KG
+I00100,erp_purchase_lines,erp:4500003992:10,unit_error,2023,quantity,5522.5,5.5225,tonnes keyed with uom KG
+I00101,erp_purchase_lines,erp:4500004028:10,unit_error,2023,quantity,1732.0,1.732,tonnes keyed with uom KG
+I00102,erp_purchase_lines,erp:4500004301:10,unit_error,2023,quantity,12169.6,12.1696,tonnes keyed with uom KG
+I00103,erp_purchase_lines,erp:4500004197:10,unit_error,2023,quantity,42319.5,42.3195,tonnes keyed with uom KG
+I00104,erp_purchase_lines,erp:4500003573:10,unit_error,2023,quantity,46138.8025026,46.1388,tonnes keyed with uom KG
+I00105,erp_purchase_lines,erp:4500002976:10,decimal_shift,2023,quantity,12054.669,120546.69,
+I00106,erp_purchase_lines,erp:4500003719:10,decimal_shift,2023,quantity,3668.0,36680.0,
+I00107,erp_purchase_lines,erp:4500003002:10,decimal_shift,2023,quantity,20394.133,203941.33,
+I00108,erp_purchase_lines,erp:4500003035:10,decimal_shift,2023,quantity,10574.699999999999,1057.47,
+I00109,erp_purchase_lines,erp:4500003119:10,decimal_shift,2023,quantity,35964.0,3596.4,
+I00110,erp_purchase_lines,erp:4500003005:10,decimal_shift,2023,quantity,35968.077,3596.808,
+I00111,erp_purchase_lines,erp:4500004179:10,currency_error,2023,currency,SEK,EUR,
+I00112,erp_purchase_lines,erp:4500003777:10,currency_error,2023,currency,USD,EUR,
+I00113,erp_purchase_lines,erp:4500003789:10,currency_error,2023,currency,USD,EUR,
+I00114,erp_purchase_lines,erp:4500003788:10,currency_error,2023,currency,USD,EUR,
+I00115,erp_purchase_lines,erp:4500003859:10,currency_error,2023,currency,USD,EUR,
+I00116,erp_purchase_lines,erp:4500003775:10,currency_error,2023,currency,USD,EUR,
+I00117,erp_purchase_lines,erp:4500004353:10,currency_error,2023,net_amount,307305.43,3503281.9,SEK amount booked as EUR
+I00118,erp_purchase_lines,erp:4500004321:10,currency_error,2023,net_amount,369313.38,4210172.53,SEK amount booked as EUR
+I00119,erp_purchase_lines,erp:4500004331:10,currency_error,2023,net_amount,478609.83,5456152.06,SEK amount booked as EUR
+I00120,erp_purchase_lines,erp:4500003652:10,material_mismatch,2023,material_id,M120,M126,
+I00121,erp_purchase_lines,erp:4500003656:10,material_mismatch,2023,material_id,M120,M126,
+I00122,erp_purchase_lines,erp:4500003878:10,material_mismatch,2023,material_id,M131,M126,
+I00123,erp_purchase_lines,erp:4500004141:10,material_mismatch,2023,material_id,M150,M154,
+I00124,erp_purchase_lines,erp:4500003632:10,material_mismatch,2023,material_id,M120,M126,
+I00125,erp_purchase_lines,erp:4500003625:10,material_mismatch,2023,material_id,M120,M126,
+I00126,erp_purchase_lines,erp:5100000351:10,duplicate_record,2023,*,,,duplicate posting
+I00127,erp_purchase_lines,erp:5100000352:10,duplicate_record,2023,*,,,duplicate posting
+I00128,erp_purchase_lines,erp:5100000353:10,duplicate_record,2023,*,,,duplicate posting
+I00129,erp_purchase_lines,erp:5100000354:10,duplicate_record,2023,*,,,duplicate posting
+I00130,erp_purchase_lines,erp:5100000355:10,duplicate_record,2023,*,,,duplicate posting
+I00131,erp_purchase_lines,erp:5100000356:10,duplicate_record,2023,*,,,duplicate posting
+I00132,erp_purchase_lines,erp:5100000357:10,duplicate_record,2023,*,,,duplicate posting
+I00133,erp_purchase_lines,erp:5100000358:10,duplicate_record,2023,*,,,duplicate posting
+I00134,erp_purchase_lines,erp:5100000359:10,duplicate_record,2023,*,,,duplicate posting
+I00135,erp_purchase_lines,erp:5100000360:10,duplicate_record,2023,*,,,duplicate posting
+I00136,erp_purchase_lines,erp:4500005061:10,unit_error,2024,quantity,40608.133914599995,40.6081,tonnes keyed with uom KG
+I00137,erp_purchase_lines,erp:4500004837:10,unit_error,2024,quantity,19323.0,19.323,tonnes keyed with uom KG
+I00138,erp_purchase_lines,erp:4500005060:10,unit_error,2024,quantity,115762.266346,115.7623,tonnes keyed with uom KG
+I00139,erp_purchase_lines,erp:4500005178:10,unit_error,2024,quantity,3589.7,3.5897,tonnes keyed with uom KG
+I00140,erp_purchase_lines,erp:4500004795:10,unit_error,2024,quantity,25946.0,25.946,tonnes keyed with uom KG
+I00141,erp_purchase_lines,erp:4500004389:10,unit_error,2024,quantity,24581.314,24.5813,tonnes keyed with uom KG
+I00142,erp_purchase_lines,erp:4500005562:10,unit_error,2024,quantity,4335.5,4.3355,tonnes keyed with uom KG
+I00143,erp_purchase_lines,erp:4500004657:10,unit_error,2024,quantity,42645.0,42.645,tonnes keyed with uom KG
+I00144,erp_purchase_lines,erp:4500004960:10,unit_error,2024,quantity,528707.232628,528.7072,tonnes keyed with uom KG
+I00145,erp_purchase_lines,erp:4500005473:10,unit_error,2024,quantity,1600.0,1.6,tonnes keyed with uom KG
+I00146,erp_purchase_lines,erp:4500004924:10,unit_error,2024,quantity,68638.1590908,68.6382,tonnes keyed with uom KG
+I00147,erp_purchase_lines,erp:4500005584:10,unit_error,2024,quantity,1271.3,1.2713,tonnes keyed with uom KG
+I00148,erp_purchase_lines,erp:4500005763:10,unit_error,2024,quantity,9164.1,9.1641,tonnes keyed with uom KG
+I00149,erp_purchase_lines,erp:4500005054:10,unit_error,2024,quantity,31013.906288399998,31.0139,tonnes keyed with uom KG
+I00150,erp_purchase_lines,erp:4500004816:10,decimal_shift,2024,quantity,47251.0,472510.0,
+I00151,erp_purchase_lines,erp:4500004677:10,decimal_shift,2024,quantity,17225.0,172250.0,
+I00152,erp_purchase_lines,erp:4500005685:10,decimal_shift,2024,quantity,58377.2,583772.0,
+I00153,erp_purchase_lines,erp:4500005495:10,decimal_shift,2024,quantity,2062.0,206.2,
+I00154,erp_purchase_lines,erp:4500004512:10,decimal_shift,2024,quantity,37283.962,372839.62,
+I00155,erp_purchase_lines,erp:4500005424:10,decimal_shift,2024,quantity,98390.3,9839.03,
+I00156,erp_purchase_lines,erp:4500005233:10,currency_error,2024,currency,USD,EUR,
+I00157,erp_purchase_lines,erp:4500005242:10,currency_error,2024,currency,USD,EUR,
+I00158,erp_purchase_lines,erp:4500005646:10,currency_error,2024,currency,SEK,EUR,
+I00159,erp_purchase_lines,erp:4500005644:10,currency_error,2024,currency,SEK,EUR,
+I00160,erp_purchase_lines,erp:4500005229:10,currency_error,2024,currency,USD,EUR,
+I00161,erp_purchase_lines,erp:4500005319:10,currency_error,2024,currency,USD,EUR,
+I00162,erp_purchase_lines,erp:4500005783:10,currency_error,2024,net_amount,452468.86,5158145.0,SEK amount booked as EUR
+I00163,erp_purchase_lines,erp:4500005782:10,currency_error,2024,net_amount,327408.96,3732462.14,SEK amount booked as EUR
+I00164,erp_purchase_lines,erp:5100000047:10,currency_error,2024,net_amount,479095.58,5461689.61,SEK amount booked as EUR
+I00165,erp_purchase_lines,erp:4500005098:10,material_mismatch,2024,material_id,M120,M126,
+I00166,erp_purchase_lines,erp:4500005590:10,material_mismatch,2024,material_id,M150,M154,
+I00167,erp_purchase_lines,erp:4500005109:10,material_mismatch,2024,material_id,M120,M126,
+I00168,erp_purchase_lines,erp:4500005587:10,material_mismatch,2024,material_id,M150,M154,
+I00169,erp_purchase_lines,erp:4500005617:10,material_mismatch,2024,material_id,M150,M154,
+I00170,erp_purchase_lines,erp:4500005090:10,material_mismatch,2024,material_id,M120,M126,
+I00171,erp_purchase_lines,erp:5100000451:10,duplicate_record,2024,*,,,duplicate posting
+I00172,erp_purchase_lines,erp:5100000452:10,duplicate_record,2024,*,,,duplicate posting
+I00173,erp_purchase_lines,erp:5100000453:10,duplicate_record,2024,*,,,duplicate posting
+I00174,erp_purchase_lines,erp:5100000454:10,duplicate_record,2024,*,,,duplicate posting
+I00175,erp_purchase_lines,erp:5100000455:10,duplicate_record,2024,*,,,duplicate posting
+I00176,erp_purchase_lines,erp:5100000456:10,duplicate_record,2024,*,,,duplicate posting
+I00177,erp_purchase_lines,erp:5100000457:10,duplicate_record,2024,*,,,duplicate posting
+I00178,erp_purchase_lines,erp:5100000458:10,duplicate_record,2024,*,,,duplicate posting
+I00179,erp_purchase_lines,erp:5100000459:10,duplicate_record,2024,*,,,duplicate posting
+I00180,erp_purchase_lines,erp:5100000460:10,duplicate_record,2024,*,,,duplicate posting
+I00258,energy_meter_readings,energy:S-SAK:2023-05:electricity,missing_record,2023,value,1588.374,,
+I00259,energy_meter_readings,energy:S-KAN:2023-11:oilseed_sidestream,missing_record,2023,value,357.339,,
+I00260,energy_meter_readings,energy:S-KAN:2023-03:oilseed_sidestream,missing_record,2023,value,363.525,,
+I00261,energy_meter_readings,energy:S-PUD:2023-11:district_heat,unit_error,2023,value,66.354,66354.0,kWh reported in MWh column
+I00262,energy_meter_readings,energy:S-HQ:2023-09:electricity,unit_error,2023,value,12.489,12489.0,kWh reported in MWh column
+I00263,energy_meter_readings,energy:S-KAN:2023-05:electricity,unit_error,2023,value,1050.881,1050881.0,kWh reported in MWh column
+I00264,energy_meter_readings,energy:S-PUD:2023-10:electricity,meter_spike,2023,value,181.669,700.854,
+I00265,energy_meter_readings,energy:S-PUD:2023-07:district_heat,meter_spike,2023,value,29.792,89.805,
+I00266,energy_meter_readings,energy:S-KAN:2024-07:electricity,missing_record,2024,value,1013.823,,
+I00267,energy_meter_readings,energy:S-HQ:2024-12:electricity,missing_record,2024,value,12.259,,
+I00268,energy_meter_readings,energy:S-HQ:2024-05:electricity,missing_record,2024,value,12.687,,
+I00269,energy_meter_readings,energy:S-KAN:2024-12:wood_chips,unit_error,2024,value,1657.538,1657538.0,kWh reported in MWh column
+I00270,energy_meter_readings,energy:S-PUD:2024-11:electricity,unit_error,2024,value,178.964,178964.0,kWh reported in MWh column
+I00271,energy_meter_readings,energy:S-PUD:2024-04:electricity,unit_error,2024,value,182.699,182699.0,kWh reported in MWh column
+I00272,energy_meter_readings,energy:S-KAN:2024-02:electricity,meter_spike,2024,value,1022.169,3402.515,
+I00273,energy_meter_readings,energy:S-PUD:2024-11:electricity,meter_spike,2024,value,178964.0,693108.523,
+I00290,fuel_deliveries,fuel:FD00032,unit_error,2023,quantity,36554.0,36.554,m3 keyed as litres
+I00291,fuel_deliveries,fuel:FD00033,unit_error,2023,quantity,17558.0,17.558,m3 keyed as litres
+I00292,fuel_deliveries,fuel:FD00035,unit_error,2024,quantity,25333.0,25.333,m3 keyed as litres
+I00293,fuel_deliveries,fuel:FD00039,unit_error,2024,quantity,38690.0,38.69,m3 keyed as litres
+I00296,goo_cancellations,goo:S-PUD:2023,certificate_mismatch,2023,vintage_year,2023,2021,typo in the internal log; the registry statement shows the correct vintage
+I00297,goo_cancellations,goo:S-PUD:2024,certificate_mismatch,2024,vintage_year,2024,2022,typo in the internal log; the registry statement shows the correct vintage
+I00308,refrigerant_service_log,refrigerant:RS00052,wrong_gas_code,2023,refrigerant,R404A,R717_ammonia,
+I00309,refrigerant_service_log,refrigerant:RS00059,unit_error,2023,kg_added,2.2,2200.0,grams in kg column
+I00310,refrigerant_service_log,refrigerant:RS00063,wrong_gas_code,2024,refrigerant,R404A,R717_ammonia,
+I00311,refrigerant_service_log,refrigerant:RS00064,unit_error,2024,kg_added,27.75,27750.0,grams in kg column
+I00326,waste_transfer_notes,waste:WT000632,unit_error,2023,quantity,31662.1,31.6621,tonnes keyed as kg
+I00327,waste_transfer_notes,waste:WT000652,unit_error,2023,quantity,104981.8,104.9818,tonnes keyed as kg
+I00328,waste_transfer_notes,waste:WT000655,unit_error,2023,quantity,36352.3,36.3523,tonnes keyed as kg
+I00329,waste_transfer_notes,waste:WT000814,unit_error,2024,quantity,28044.0,28.044,tonnes keyed as kg
+I00330,waste_transfer_notes,waste:WT000787,unit_error,2024,quantity,30666.6,30.6666,tonnes keyed as kg
+I00331,waste_transfer_notes,waste:WT000746,unit_error,2024,quantity,53389.9,53.3899,tonnes keyed as kg
+I00359,travel_bookings,travel:BK101338,duplicate_record,2023,*,,,"re-imported booking (same traveller, date, route); later row in file order"
+I00360,travel_bookings,travel:BK100467,duplicate_record,2023,*,,,"re-imported booking (same traveller, date, route); later row in file order"
+I00361,travel_bookings,travel:BK103367,duplicate_record,2023,*,,,"re-imported booking (same traveller, date, route); later row in file order"
+I00362,travel_bookings,travel:BK100385,duplicate_record,2023,*,,,"re-imported booking (same traveller, date, route); later row in file order"
+I00363,travel_bookings,travel:BK103274,duplicate_record,2023,*,,,"re-imported booking (same traveller, date, route); later row in file order"
+I00364,travel_bookings,travel:BK100958,duplicate_record,2023,*,,,"re-imported booking (same traveller, date, route); later row in file order"
+I00365,travel_bookings,travel:BK101184,duplicate_record,2024,*,,,"re-imported booking (same traveller, date, route); later row in file order"
+I00366,travel_bookings,travel:BK102601,duplicate_record,2024,*,,,"re-imported booking (same traveller, date, route); later row in file order"
+I00367,travel_bookings,travel:BK101967,duplicate_record,2024,*,,,"re-imported booking (same traveller, date, route); later row in file order"
+I00368,travel_bookings,travel:BK101431,duplicate_record,2024,*,,,"re-imported booking (same traveller, date, route); later row in file order"
+I00369,travel_bookings,travel:BK100388,duplicate_record,2024,*,,,"re-imported booking (same traveller, date, route); later row in file order"
+I00370,travel_bookings,travel:BK102610,duplicate_record,2024,*,,,"re-imported booking (same traveller, date, route); later row in file order"
+I00398,shipments,ship:4500004089:EF-TKM-SHIP-REEFER,missing_leg,2023,tkm,9587.4,,sea leg missing
+I00399,shipments,ship:4500003785:EF-TKM-SHIP-REEFER,missing_leg,2023,tkm,250773.6,,sea leg missing
+I00400,shipments,ship:4500003450:EF-TKM-SHIP-BULK,missing_leg,2023,tkm,2246760.96,,sea leg missing
+I00401,shipments,ship:4500004071:EF-TKM-SHIP-REEFER,missing_leg,2023,tkm,8950.9,,sea leg missing
+I00402,shipments,ship:4500004919:EF-TKM-SHIP-BULK,missing_leg,2024,tkm,2220024.6,,sea leg missing
+I00403,shipments,ship:4500005229:EF-TKM-SHIP-REEFER,missing_leg,2024,tkm,225415.4,,sea leg missing
+I00404,shipments,ship:4500004914:EF-TKM-SHIP-BULK,missing_leg,2024,tkm,672543.68,,sea leg missing
+I00405,shipments,ship:4500004897:EF-TKM-SHIP-BULK,missing_leg,2024,tkm,303861.3,,sea leg missing
+I00413,farm_survey,farm_survey:FS00200,soil_misreport,2024,soil_type_reported,organic share 0.77,Mineral soil,
+I00426,farm_survey,farm_survey:FS00506,soil_misreport,2024,soil_type_reported,organic share 0.60,Mineral soil,
+I00439,farm_survey,farm_survey:FS00590,soil_misreport,2024,soil_type_reported,organic share 1.00,Mineral soil,
+I00446,farm_survey,farm_survey:FS00600,soil_misreport,2023,soil_type_reported,organic share 0.36,Mineral soil,
+I00451,farm_survey,farm_survey:FS00623,soil_misreport,2023,soil_type_reported,organic share 1.00,Mineral soil,
+I00454,farm_survey,farm_survey:FS00637,soil_misreport,2023,soil_type_reported,organic share 0.81,Mineral soil,
+I00455,farm_survey,farm_survey:FS00638,soil_misreport,2024,soil_type_reported,organic share 1.00,Mineral soil,
+I00460,farm_survey,farm_survey:FS00679,soil_misreport,2023,soil_type_reported,organic share 0.33,Mineral soil,
+I00468,farm_survey,farm_survey:FS00821,soil_misreport,2024,soil_type_reported,organic share 1.00,Mineral soil,
+I00479,farm_survey,farm_survey:FS01139,soil_misreport,2023,soil_type_reported,organic share 1.00,Mineral soil,
+I00480,farm_survey,farm_survey:FS01140,soil_misreport,2024,soil_type_reported,organic share 1.00,Mineral soil,
+I00491,farm_survey,farm_survey:FS01314,soil_misreport,2023,soil_type_reported,organic share 1.00,Mineral soil,
+I00493,farm_survey,farm_survey:FS01323,soil_misreport,2024,soil_type_reported,organic share 1.00,Mineral soil,
+I00499,farm_survey,farm_survey:FS01342,soil_misreport,2024,soil_type_reported,organic share 0.82,Mineral soil,
+I00501,farm_survey,farm_survey:FS01432,soil_misreport,2023,soil_type_reported,organic share 0.40,Mineral soil,
+I00514,farm_survey,farm_survey:FS01716,soil_misreport,2023,soil_type_reported,organic share 1.00,Mineral soil,
+I00532,farm_survey,farm_survey:FS01819,soil_misreport,2023,soil_type_reported,organic share 1.00,Mineral soil,
+I00536,farm_survey,farm_survey:FS01989,soil_misreport,2023,soil_type_reported,organic share 0.92,Mineral soil,
+I00537,farm_survey,farm_survey:FS01990,soil_misreport,2024,soil_type_reported,organic share 0.31,Mineral soil,
+I00548,farm_survey,farm_survey:FS02091,soil_misreport,2024,soil_type_reported,organic share 0.35,Mineral soil,
+I00561,farm_survey,farm_survey:FS02199,soil_misreport,2023,soil_type_reported,organic share 1.00,Mineral soil,
+I00568,farm_survey,farm_survey:FS02294,soil_misreport,2023,soil_type_reported,organic share 0.66,Mineral soil,
+I00571,farm_survey,farm_survey:FS02440,soil_misreport,2024,soil_type_reported,organic share 0.89,Mineral soil,
+I00576,farm_survey,farm_survey:FS02610,soil_misreport,2023,soil_type_reported,organic share 0.49,Mineral soil,
+I00577,farm_survey,farm_survey:FS02702,soil_misreport,2023,soil_type_reported,organic share 1.00,Mineral soil,
+I00591,farm_survey,farm_survey:FS02865,soil_misreport,2024,soil_type_reported,organic share 0.65,Mineral soil,
+I00593,farm_survey,farm_survey:FS02889,soil_misreport,2023,soil_type_reported,organic share 0.55,Mineral soil,
+I00594,farm_survey,farm_survey:FS02890,soil_misreport,2024,soil_type_reported,organic share 0.41,Mineral soil,
+I00602,farm_survey,farm_survey:FS03169,soil_misreport,2024,soil_type_reported,organic share 0.32,Mineral soil,
+I00608,farm_survey,farm_survey:FS03199,soil_misreport,2023,soil_type_reported,organic share 1.00,Mineral soil,
+I00609,farm_survey,farm_survey:FS03200,soil_misreport,2024,soil_type_reported,organic share 0.49,Mineral soil,
+I00614,farm_survey,farm_survey:FS03211,soil_misreport,2024,soil_type_reported,organic share 0.52,Mineral soil,
+I00620,farm_survey,farm_survey:FS03331,soil_misreport,2023,soil_type_reported,organic share 1.00,Mineral soil,
+I00632,farm_survey,farm_survey:FS02737,decimal_shift,2023,n_mineral_kg_ha,82.1,8.2,
+I00636,farm_survey,farm_survey:FS00991,decimal_shift,2023,n_mineral_kg_ha,29.4,2.9,
+I00645,farm_survey,farm_survey:FS02963,decimal_shift,2024,n_mineral_kg_ha,102.8,1028.0,
+I00648,farm_survey,farm_survey:FS02575,decimal_shift,2024,n_mineral_kg_ha,109.1,10.9,
+I00660,farm_survey,farm_survey:FS02681,decimal_shift,2024,n_mineral_kg_ha,87.3,8.7,
+I00663,farm_survey,farm_survey:FS01322,decimal_shift,2023,n_mineral_kg_ha,140.5,14.0,
+I00674,farm_survey,farm_survey:FS02175,outlier_implausible,2023,yield_t_ha,0.97,9.7,
+I00680,farm_survey,farm_survey:FS01267,outlier_implausible,2023,yield_t_ha,2.19,21.9,
+I00697,farm_survey,farm_survey:FS01410,area_mismatch,2024,area_ha,37.25,50.29,
+I00699,farm_survey,farm_survey:FS00051,area_mismatch,2024,area_ha,24.87,39.79,
+I00701,farm_survey,farm_survey:FS02639,area_mismatch,2024,area_ha,14.68,8.81,
+I00703,farm_survey,farm_survey:FS00241,area_mismatch,2024,area_ha,6.12,8.26,
+I00715,farm_survey,farm_survey:FS00766,area_mismatch,2024,area_ha,14.43,23.09,
+I00722,farm_survey,farm_survey:FS02176,area_mismatch,2024,area_ha,7.22,4.33,
+I00725,farm_survey,farm_survey:FS02931,area_mismatch,2024,area_ha,16.23,21.91,
+I00729,farm_survey,farm_survey:FS00646,area_mismatch,2024,area_ha,30.77,41.54,
+I00730,farm_survey,farm_survey:FS03024,area_mismatch,2023,area_ha,11.38,15.36,
+I00731,farm_survey,farm_survey:FS00324,area_mismatch,2024,area_ha,16.04,9.62,
+I00735,farm_survey,farm_survey:FS00738,area_mismatch,2024,area_ha,40.01,54.01,
+I00738,farm_survey,farm_survey:FS00495,area_mismatch,2024,area_ha,13.93,22.29,
+I00741,farm_survey,farm_survey:FS01510,area_mismatch,2023,area_ha,14.39,23.02,
+I00745,farm_survey,farm_survey:FS01297,area_mismatch,2024,area_ha,8.19,13.1,
+I00749,farm_survey,farm_survey:FS02532,area_mismatch,2024,area_ha,21.71,34.74,
+I00756,farm_survey,farm_survey:FS00910,area_mismatch,2023,area_ha,20.3,12.18,
+I00761,farm_survey,farm_survey:FS00168,area_mismatch,2023,area_ha,16.08,21.71,
+I00764,farm_survey,farm_survey:FS01028,area_mismatch,2024,area_ha,12.16,7.3,

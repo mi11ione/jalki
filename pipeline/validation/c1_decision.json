@@ -1,0 +1,36 @@
+{
+  "old_score": 56.56,
+  "new_score": 56.82,
+  "replaced": true,
+  "rule_satisfied": true,
+  "old_sha256": "6c782c46d1d500ba2f28393e524d2e93f54fc0b142e77bc335904a9118391de5",
+  "new_sha256": "d8b413d6b0a1773ef831888a48e8c0c97ee90f155d8f37727d09ac3edd542481",
+  "candidate_sha256": "d8b413d6b0a1773ef831888a48e8c0c97ee90f155d8f37727d09ac3edd542481",
+  "endorsed_sha256": "b852c707ffe78e15069d7de5b03f6e993d6f6830f60adaa553fe1e7bb352b8b5",
+  "conditions": {
+    "a_reconcile_endorses_promoted": true,
+    "b_rescore_ge_56_56": true,
+    "c_schema_valid": true,
+    "refit_gate_exact": true,
+    "diagnostic_regenerated_equals_reconcile_file": false,
+    "diagnostic_regenerated_equals_um_1794005150_8_c1": true
+  },
+  "new_score_eval_path": 56.82,
+  "new_score_refit_path": 56.82,
+  "threshold": 56.56,
+  "schema": {
+    "columns_ok": true,
+    "rows_ok": true,
+    "keys_match_template": true,
+    "keys_match_submitted": true,
+    "unique_ids": true,
+    "no_nan": true,
+    "positive": true,
+    "years_ok": true
+  },
+  "refit_gate_max_abs": 0.0,
+  "mean_abs_diff_vs_old_t_ha": 0.154,
+  "old_csv": "stages/step-05135-2/submission/C1_yields_2027_2031_submission.csv",
+  "new_csv": "stages/step-06475-4/C1.csv",
+  "note": "scores are the official C1 formula on the twin F1 2022-26 backtest of each CSV's procedure; the 2027-31 CSVs have no answer key. Twin-only, not public or real-pack."
+}

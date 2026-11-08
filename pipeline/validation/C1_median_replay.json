@@ -1,0 +1,10 @@
+{
+  "score": 56.82,
+  "banked_score": 56.82,
+  "ticket_requested_score": 56.56,
+  "matches_source_bank": true,
+  "matches_ticket_literal": false,
+  "target_has_public_key": false,
+  "scope": "synthetic_only; F1 procedure replay, not target CSV hidden-test score",
+  "no_sweeps_or_resampling": true
+}

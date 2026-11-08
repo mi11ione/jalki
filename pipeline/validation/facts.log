@@ -1,0 +1,22 @@
+manifest files 128, missing 1, hash mismatch 0
+missing: ['data/00_apetit_original/ApetitGroup_sample_data.xlsx']
+mismatch: []
+ok   erp 7427
+ok   energy 610
+ok   fuel 263
+ok   goo log 19
+ok   goo registry 55
+ok   refrigerant 84
+ok   waste 1008
+ok   travel 3532
+ok   commuting 208
+ok   shipments 11617
+ok   farm survey 3437
+ok   farm registry 680
+ok   parcels 14213
+ok   pcf files 44
+ok   dev labels 201
+pandas 2.3.0+4.g1dfc98e16a
+numpy 2.0.2
+python 3.9.6 /Applications/Xcode.app/Contents/Developer/usr/bin/python3
+PACK FACTS FAILED

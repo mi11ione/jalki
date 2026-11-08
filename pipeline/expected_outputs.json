@@ -1,0 +1,27 @@
+{
+ "note": "Fingerprints of the reference run. Synthetic pack only.",
+ "environment": "Python 3.9.6, numpy 2.0.2, pandas 2.3.3, scikit-learn 1.6.1, Darwin arm64",
+ "files": {
+  "submission/A1_issues_submission.csv": "ae29458c15c0208eacec75fccd30dca745d9601d2a7f56b853d621833f90ddff",
+  "submission/A2_inventory_2025_submission.csv": "c96cdfc2ce9ef0069eba9e31939bc7ab409ccf110eab1a3e1424549bbb1cefd8",
+  "submission/C1_yields_2027_2031_submission.csv": "d8b413d6b0a1773ef831888a48e8c0c97ee90f155d8f37727d09ac3edd542481",
+  "submission/C2_climate_yield_risk_submission.csv": "0e80c8066b3f3bb63179c26272f5e3e961e40b327ec160a6895bb2fa06d45695",
+  "submission/D1_catchment_priority_submission.csv": "a31c5cd20535c0ca5feb108ac67d28be59a68a94840881a5ebf78fce572b2b93",
+  "submission/E_answers_submission.csv": "cce166efbf5ddaf1885019f946968e8acc4c8a0cee964ad75929d7120a79d96c",
+  "b_pathways/outputs/B1_targets.csv": "8c35459bdc618605e5992135412cc8b89d441c9c1b625a0d36f31e067f20cc99",
+  "b_pathways/outputs/B1_pathway.csv": "8f99ec7d4d3d819f1796c92f31d9be232a1cd407ecb171f5fb7261a67c709fbb",
+  "b_pathways/outputs/B1_recalculation_tests.csv": "2b7d93cbd812694b450e831fe4efc789c5799bf243f0959301c0f24bbbc51b78",
+  "b_pathways/outputs/B1_ceiling_gaps_2035.csv": "fcb3874611d5554eeed0eb1e618ecb60424183d0574204f4b96b1d29f50e54ad",
+  "b_pathways/outputs/B2_macc.csv": "04b4b10179072adb0ba270a2c1322807fa741b8cbc25c871909c6feec9b94709",
+  "c3_euro_risk/c3_eur_risk.csv": "f1857e7f7b69eec52851ca43d38d36e8338ebee700df940998efe32207c0555a",
+  "a2_inventory/audit/lines.csv": "f4be380c17fff33c3a95535aacc069358128145b4afef86c9681e5eaa0f2f60e",
+  "a2_inventory/audit/edges.csv": "843a70dad161f36cb8939b6fd12734ae8f85df2aaf6d1c682942ca08ba3b61f8",
+  "a2_inventory/audit/corrections.csv": "6ed1b1e45d3f82d47be86fb63399c3aae41975b7ca7c7d420abe00bdfa5025e9",
+  "a2_inventory/audit/factors.csv": "49fd9eb64e28e70e5a433773b5391fea8a0bbeaec9dbe3ef9b704f2d34db3c59",
+  "a2_inventory/audit/issues.csv": "f7515e2a18a474d2f938f382f10ba0301f727f239dd31b349da1eb664f3c5177",
+  "pipeline/bundle.json": "f2d069560b0ca93eb42ef2dcd8f854d62843a28b116fccfdf9692a11275e2c87",
+  "pipeline/trail": "a653899981f778a8296d2c11df2ed5680e956a4125ce932c01bb6172224059c6",
+  "c1_yields/ship/C1_yields_2027_2031_submission.csv": "d8b413d6b0a1773ef831888a48e8c0c97ee90f155d8f37727d09ac3edd542481",
+  "c2_climate_risk/ship/C2_climate_yield_risk_submission.csv": "0e80c8066b3f3bb63179c26272f5e3e961e40b327ec160a6895bb2fa06d45695"
+ }
+}
