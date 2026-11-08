@@ -4,7 +4,7 @@
 
 Jälki shows a food company's board what its climate promise commits it to and what it costs, shows the sustainability team what data is still missing, and lets every number open down to the record it came from. Built for Apetit's Climate & Nature Navigator challenge at Since AI 2026.
 
-▶ **Video (2 min):** _link added at submission_
+▶ **[Watch the 2-minute video](https://youtu.be/ck9iKz328w8)**
 
 ![The promise](screens/en_promise.png)
 
