@@ -22,7 +22,7 @@
     ts_promise: ['Promise', 'Lupaus'], ts_gaps: ['Gaps', 'Puutteet'], ts_suppliers: ['Suppliers', 'Toimit­tajat'], ts_lakes: ['Lakes', 'Järvet'], ts_sign: ['Sign', 'Allekir­joita'],
     foot_tap: ['Tap any number for its source.', 'Napauta mitä tahansa lukua nähdäksesi sen lähteen.'],
     /* v13: one plain sentence per view (what this page tells you, what to do), the first-visit hint, labels that follow the language */
-    pl_promise: ['Every action we recommend still falls short of the {Y} target (red), so decide the target year before signing.',
+    pl_promise: ['Even the best route found still falls short of the {Y} target (red), so the board picks the target year before signing.',
       'Kaikki suosittelemamme toimet jäävät vuoden {Y} tavoitteesta (punainen), joten tavoitevuosi on päätettävä ennen allekirjoitusta.'],
     pl_gaps: ['This is the data we still lack for the climate and nature standards; start at number 1 and approve or send back each AI suggestion.',
       'Tässä on data, joka meiltä vielä puuttuu ilmasto- ja luontostandardeja varten; aloita kohdasta 1 ja hyväksy tai palauta jokainen tekoälyn ehdotus.'],
